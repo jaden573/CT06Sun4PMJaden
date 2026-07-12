@@ -19,7 +19,7 @@ function setup() {
    ellipse(600,300,200,75);
    ellipse(525,225,50,50);
    ellipse(675,225,50,50);
-   ellipse(500,105,90,90);
+   ellipse(500,80,90,90);
    ellipse(700,105,90,90)
   // Challenge 3: A house using rect() function
 

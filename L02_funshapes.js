@@ -34,7 +34,7 @@ function setup() {
     // ellipse(295,115,53,53);
     // ellipse(126,560,32,32);
     // line(100,200,300,400)
-    triangle(100)
+    triangle(400,600,800,)
 
   // Challenge 4: A rocketship using triangle() function
 

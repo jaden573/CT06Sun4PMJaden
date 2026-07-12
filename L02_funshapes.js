@@ -26,7 +26,9 @@ function setup() {
     rect(300,350,600,100);
     rect(400,250,400,100);
     rect(500,150,200,100);
-    ellipse(600,100,50,50)
+    ellipse(600,100,50,50);
+    rect(550,350,100,200);
+    ellipse(630,450,20,20);
 
   // Challenge 4: A rocketship using triangle() function
 

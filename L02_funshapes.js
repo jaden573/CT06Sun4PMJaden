@@ -6,7 +6,7 @@ function setup() {
   background(220);
 }
 function draw() {
-   ellipse(600,0,400,200);
+   ellipse(600,250,400,200);
   ellipse(600,250,100,200);
  ellipse(600,250,100,50);
   // Challenge 1: An eye using ellipse() function

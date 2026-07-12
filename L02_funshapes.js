@@ -24,7 +24,8 @@ function setup() {
   // Challenge 3: A house using rect() function
     rect(200,450,800,100);
     rect(550,350,100,200);
-    ellipse(630,450,20,20)
+    ellipse(630,450,20,20);
+    rect()
 
   // Challenge 4: A rocketship using triangle() function
 

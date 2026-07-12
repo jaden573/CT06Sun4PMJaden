@@ -49,6 +49,7 @@ ellipse(525,200,40,40);
   ellipse(440,250,100,40);
   ellipse(760,250,100,40);
   rect(380,230,80,40);
+   rect(680,230,80,40);
  
   // Challenge 6: Add some colours to the drawings in the above challenges
 

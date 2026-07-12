@@ -34,12 +34,12 @@ function setup() {
     // ellipse(295,115,53,53);
     // ellipse(126,560,32,32);
     // line(100,200,300,400)
-    ellipse(700,250,180,400);
+    
+  // Challenge 4: A rocketship using triangle() function
+//ellipse(700,250,180,400);
     triangle(700,10,621,150,779,150);
     ellipse(700,230,80,80)
     rect(500,400,400,50)
-  // Challenge 4: A rocketship using triangle() function
-
   // Challenge 5: A square face using quad() function
 
   // Challenge 6: Add some colours to the drawings in the above challenges

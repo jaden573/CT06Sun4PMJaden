@@ -41,7 +41,7 @@ function setup() {
     // ellipse(700,230,80,80)
     // rect(500,400,400,50)
   // Challenge 5: A square face using quad() function
-quad(200,)
+quad(200,100,1000,)
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon

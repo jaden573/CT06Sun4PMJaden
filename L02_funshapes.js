@@ -46,8 +46,8 @@ function setup() {
 ellipse(525,200,40,40);
   ellipse(675,200,40,40);
   quad(525,300,675,300,650,325,550,325);
-  ellipse(450,250,80,40);
-  ellipse(750,250,80,40)
+  ellipse(450,250,100,40);
+  ellipse(750,250,100,40)
  
   // Challenge 6: Add some colours to the drawings in the above challenges
 

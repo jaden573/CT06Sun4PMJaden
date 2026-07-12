@@ -22,18 +22,19 @@ function setup() {
   //  ellipse(500,82,90,90);
   //  ellipse(700,82,90,90)
   // Challenge 3: A house using rect() function
-    rect(200,450,800,100);
-    rect(300,350,600,100);
-    rect(400,250,400,100);
-    rect(500,150,200,100);
-    ellipse(600,100,50,50);
-    rect(550,350,100,200);
-    ellipse(630,450,20,20);
-    ellipse(500,430,20,20);
-    ellipse(948,214,70,70);
-    ellipse(295,115,53,53);
-    ellipse(126,560,32,32);
-    line(100,200,300,400)
+    // rect(200,450,800,100);
+    // rect(300,350,600,100);
+    // rect(400,250,400,100);
+    // rect(500,150,200,100);
+    // ellipse(600,100,50,50);
+    // rect(550,350,100,200);
+    // ellipse(630,450,20,20);
+    // ellipse(500,430,20,20);
+    // ellipse(948,214,70,70);
+    // ellipse(295,115,53,53);
+    // ellipse(126,560,32,32);
+    // line(100,200,300,400)
+    
 
   // Challenge 4: A rocketship using triangle() function
 

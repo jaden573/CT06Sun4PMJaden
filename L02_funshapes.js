@@ -14,7 +14,7 @@ function setup() {
   // Challenge 1: An eye using ellipse() function
 //to create ellipse, ellipse(x,y,width,height)
   // Challenge 2: A face using circle() function
-  ellipse(600,250)
+  ellipse(600,400,)
   ellipse(600,250,300,300);
   // Challenge 3: A house using rect() function
 

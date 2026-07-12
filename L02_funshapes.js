@@ -23,8 +23,6 @@ function setup() {
   //  ellipse(700,82,90,90)
   // Challenge 3: A house using rect() function
     rect(200,450,800,100);
-    rect(550,350,100,200);
-    ellipse(630,450,20,20);
     rect(300,350,600,100);
     rect(400,250,400,100);
     rect(500,150,200,100);

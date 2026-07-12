@@ -16,7 +16,7 @@ function setup() {
   // Challenge 2: A face using circle() function
  
   ellipse(600,250,300,300);
-   ellipse(600,300,200,100);
+   ellipse(600,300,200,75);
    ellipse(525,225,50,50);
    ellipse(675,225,50,50);
    ellipse(500,105,50,50);

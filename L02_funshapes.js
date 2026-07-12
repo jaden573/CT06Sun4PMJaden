@@ -41,7 +41,8 @@ function setup() {
     // ellipse(700,230,80,80)
     // rect(500,400,400,50)
   // Challenge 5: A square face using quad() function
- ellipse(450,250,80,40)
+ ellipse(450,250,80,40);
+  ellipse(750,250,80,40)
   quad(450,100,750,100,750,400,450,400)
 ellipse(525,200,40,40)
   ellipse(675,200,40,40)

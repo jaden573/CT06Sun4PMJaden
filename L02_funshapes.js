@@ -18,7 +18,7 @@ function setup() {
   ellipse(600,250,300,300);
    ellipse(600,300,200,100);
    ellipse(525,225,50,50);
-   ellipse()
+   ellipse(675,225,50,50);
   // Challenge 3: A house using rect() function
 
   // Challenge 4: A rocketship using triangle() function

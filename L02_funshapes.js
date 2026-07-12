@@ -35,7 +35,8 @@ function setup() {
     // ellipse(126,560,32,32);
     // line(100,200,300,400)
     ellipse(700,250,180,400);
-    triangle(700,10,650,150,779,150);
+    triangle(700,10,621,150,779,150);
+    
   // Challenge 4: A rocketship using triangle() function
 
   // Challenge 5: A square face using quad() function

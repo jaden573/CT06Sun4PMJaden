@@ -7,7 +7,9 @@ function setup() {
 function draw() {
   // Recap 1: Repeating Circles
   ellipse(75,200,100);
-  ellipse(225,200,100)
+  ellipse(225,200,100);
+  ellipse(375,200,100);
+  elli[]
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop

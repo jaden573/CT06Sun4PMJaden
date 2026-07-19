@@ -20,7 +20,9 @@ function draw() {
 
   // to do loop for(let i=0; i<11; i++ )
 for(let i=0; i<5; i++){
-  circle(5 + (i*150), 200,100)}
+  circle(5 + (i*150), 200,100)
+
+}
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop

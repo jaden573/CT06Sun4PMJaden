@@ -31,7 +31,8 @@ function draw() {
   // Task 2: Colour Loop
   for(let i=0; i <300; i++){
     noStroke();
-    fill(i*255/300)
+    fill(i*255/300);
+    React(50+i,)
   }
   // Task 3: Row of Circles
 

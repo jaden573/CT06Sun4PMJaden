@@ -67,6 +67,7 @@ function draw() {
 
 
  // let spacing =
+ for(let x=0;x<240;)
   for(let i=0; i<8; i++){
     if(i%2==0){
       fill(255)

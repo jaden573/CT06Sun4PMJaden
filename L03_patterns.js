@@ -27,7 +27,7 @@ function draw() {
   // Task 1: Colour Gradient
 for(let i=0; i<100; i+=10){
   fill(100-i);
-  square(50 + (i*25), 150, 30,30)}
+  square(50 + (i*5), 150, 30,30)}
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles

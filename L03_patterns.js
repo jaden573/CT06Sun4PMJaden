@@ -35,7 +35,9 @@ function draw() {
   //   rect(50+i,275,1,50)
   // }
   for(let i=0;i<8;i++){
-    
+    if(i%2==0){
+      fill
+    }
   }
   // Task 3: Row of Circles
 

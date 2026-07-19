@@ -40,6 +40,7 @@ function draw() {
     }else{
       fill(255);
     }
+    
   }
   // Task 3: Row of Circles
 

@@ -73,7 +73,7 @@ function draw() {
       rect(30*i,0,30,30)
     }else{
       fill(0)
-      rect(30+(30*i),0,30,30)
+      rect(30*i,0,30,30)
     }
   }
 }

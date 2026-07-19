@@ -44,17 +44,25 @@ function draw() {
   //   circle(spacing + i*spacing,200,40)
   // }
 
-  // let spacing =
-  for(let i=0; i<8; i++){
-    if(i%2==0){
-      fill(255)
-      rect(60*i,0,30,30)
-    }else{
-      fill(0)
-      rect(30+(60*i),0,30,30)
-    }
-  }
+ 
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

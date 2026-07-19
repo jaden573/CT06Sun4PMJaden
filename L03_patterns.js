@@ -19,7 +19,7 @@ function draw() {
   ellipse(525,200,100)
 
   // to do loop for(let i=0; i<11; i++ )
-for(let i=0; i<4; i++)
+for(let i=0; i<4; i++){
   circle()
   // Task 1: Colour Gradient
 

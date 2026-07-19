@@ -19,7 +19,8 @@ function draw() {
   ellipse(525,200,100)
 
   // to do loop for(let i=0; i<11; i++ )
- 
+for(let i=0; i<4; i++)
+  CSSNumericValue()
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop

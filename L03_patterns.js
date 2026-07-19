@@ -19,11 +19,11 @@ function draw() {
 //   ellipse(525,200,100)
 
   // to do loop for(let i=0; i<11; i++ )
-for(let i=0; i<5; i++){
-  fill(50*i)
-  circle(50 + (i*50), 200,40)
+// for(let i=0; i<5; i++){
+//   fill(50*i)
+//   circle(50 + (i*50), 200,40)
 
-}
+
   // Task 1: Colour Gradient
 for(let i=0; i<100; i++){}
   fill();

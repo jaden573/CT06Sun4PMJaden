@@ -19,7 +19,7 @@ function setup() {
 //   ellipse(525,200,100)
 
   // to do loop for(let i=0; i<11; i++ )
-for(let i=0; i<4; i++){
+for(let i=0; i<5; i++){
   circle(75 + (i*150), 200,100)}
   // Task 1: Colour Gradient
 

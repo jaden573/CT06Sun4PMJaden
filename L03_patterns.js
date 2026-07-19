@@ -12,7 +12,7 @@ function draw() {
   fill(600,223,180)
   ellipse(225,200,100);
   
-  fill(350,450,550)
+  fill(5,50,150)
   ellipse(375,200,100);
   ellipse(525,200,100)
   // Task 1: Colour Gradient

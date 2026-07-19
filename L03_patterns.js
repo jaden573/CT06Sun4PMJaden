@@ -46,7 +46,7 @@ function draw() {
 
  
   // Task 3: Row of Circles
-//
+//new var and divide canvas width by 2, 
   for(let i=0;i<5;i++)
   circle((30*i)+15,15,30)
   // Task 4: Grid of Circles

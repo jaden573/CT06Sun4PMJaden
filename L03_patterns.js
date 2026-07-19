@@ -20,7 +20,7 @@ function draw() {
 
   // to do loop for(let i=0; i<11; i++ )
 for(let i=0; i<4; i++)
-  CSSNumericValue()
+  circle()
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop

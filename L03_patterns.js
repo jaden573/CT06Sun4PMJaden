@@ -6,6 +6,7 @@ function setup() {
   
 function draw() {
   // Recap 1: Repeating Circles
+  FileList()
   ellipse(75,200,100);
   ellipse(225,200,100);
   ellipse(375,200,100);

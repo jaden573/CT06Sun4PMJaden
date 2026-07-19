@@ -29,7 +29,9 @@ function draw() {
 //   fill(300-(10*i));
 //   rect(50 + (i*3), 150, 30,30)}
   // Task 2: Colour Loop
-
+  for(let i=0; i <300; i++){
+    
+  }
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles

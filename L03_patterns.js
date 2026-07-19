@@ -32,7 +32,7 @@ function draw() {
   for(let i=0; i <300; i++){
     noStroke();
     fill(i*255/300);
-    Rect(50+i,275,1,50)
+    rect(50+i,275,1,50)
   }
   // Task 3: Row of Circles
 

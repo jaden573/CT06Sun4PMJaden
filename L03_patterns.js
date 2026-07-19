@@ -70,10 +70,10 @@ function draw() {
   for(let i=0; i<8; i++){
     if(i%2==0){
       fill(255)
-      rect(30*i,0,30,30)
+      circle(30*i,0,30,30)
     }else{
       fill(0)
-      rect(30*i,0,30,30)
+      circle(30*i,0,30,30)
     }
   }
 }

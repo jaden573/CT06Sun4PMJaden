@@ -9,7 +9,7 @@ function draw() {
   ellipse(75,200,100);
   ellipse(225,200,100);
   ellipse(375,200,100);
-  ellipse(525,200,100, colour(2))
+  ellipse(525,200,100, colour(2,4,8))
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop

@@ -43,6 +43,8 @@ function draw() {
     }
     circle(spacing + i*spacing,200,40)
   }
+
+  let
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles

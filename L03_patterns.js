@@ -20,7 +20,7 @@ function draw() {
 
   // to do loop for(let i=0; i<11; i++ )
 for(let i=0; i<5; i++){
-  fill(10*i)
+  fill(50*i)
   circle(50 + (i*50), 200,40)
 
 }

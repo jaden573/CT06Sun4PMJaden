@@ -8,6 +8,8 @@ function draw() {
   // Recap 1: Repeating Circles
   fill(50,100,400);
   ellipse(75,200,100);
+  
+  fill(6)
   ellipse(225,200,100);
   ellipse(375,200,100);
   ellipse(525,200,100, colour(2,4,8))

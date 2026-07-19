@@ -18,7 +18,8 @@ function draw() {
   fill(34,47,80)
   ellipse(525,200,100)
 
-  // for(let i=0; i<11; i++ )
+  // to do loop for(let i=0; i<11; i++ )
+ 
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop

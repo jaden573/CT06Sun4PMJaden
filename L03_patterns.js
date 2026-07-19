@@ -67,7 +67,7 @@ function draw() {
 
 
  // let spacing =
- for(let x=0;x<240;)
+ for(let x=0;x<240;x++){
   for(let i=0; i<8; i++){
     if(i%2==0){
       fill(255)
@@ -77,4 +77,5 @@ function draw() {
       rect(30*i,0,30,30)
     }
   }
+}
 }

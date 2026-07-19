@@ -31,7 +31,7 @@ function draw() {
   // Task 2: Colour Loop
   for(let i=0; i <300; i++){
     noStroke();
-    FileList()
+    fill(i*255/300)
   }
   // Task 3: Row of Circles
 

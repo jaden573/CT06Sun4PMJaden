@@ -26,7 +26,8 @@ for(let i=0; i<5; i++){
 }
   // Task 1: Colour Gradient
 for(let i=0; i<100; i++){}
-  
+  fill();
+  square()
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles

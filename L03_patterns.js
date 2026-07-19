@@ -40,7 +40,7 @@ function draw() {
     }else{
       fill(255);
     }
-    
+    CSSNumericValue(spacing)
   }
   // Task 3: Row of Circles
 

@@ -73,7 +73,7 @@ function draw() {
       rect(30*i,0,30,30)
     }else{
       fill(0)
-      circle(30*i,0,30,30)
+      rect(30*i,0,30,30)
     }
   }
 }

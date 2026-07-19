@@ -34,6 +34,7 @@ function draw() {
   //   fill(i*255/300);
   //   rect(50+i,275,1,50)
   // }
+  let spacing=50;
   for(let i=0;i<8;i++){
     if(i%2==0){
       fill(0);

@@ -34,17 +34,26 @@ function draw() {
   //   fill(i*255/300);
   //   rect(50+i,275,1,50)
   // }
-  let spacing=50;
-  for(let i=0;i<8;i++){
-    if(i%2==0){
-      fill(0);
-    }else{
-      fill(255);
-    }
-    circle(spacing + i*spacing,200,40)
-  }
+  // let spacing=50;
+  // for(let i=0;i<8;i++){
+  //   if(i%2==0){
+  //     fill(0);
+  //   }else{
+  //     fill(255);
+  //   }
+  //   circle(spacing + i*spacing,200,40)
+  // }
 
-  let
+  // let spacing =
+  for(let i=0; i<8; i++){
+    if(i%2==0){
+      fill(255)
+      rect(60*i,0,30,30)
+    }else{
+      fill(0)
+      rect(30+(60*i),0,30,30)
+    }
+  }
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles

@@ -47,8 +47,8 @@ function draw() {
  
   // Task 3: Row of Circles
 //new var and divide canvas width by 2, new var&divide total circle width by 2, find gap&circle radius, find starting x, add gap&radius, create loop for 5 circle
-  for(let i=0;i<5;i++)
-  circle((30*i)+15,15,30)
+  // for(let i=0;i<5;i++)
+  // circle((30*i)+15,15,30)
   // Task 4: Grid of Circles
 
 
@@ -66,14 +66,14 @@ function draw() {
 
 
 
-//  // let spacing =
-//   for(let i=0; i<8; i++){
-//     if(i%2==0){
-//       fill(255)
-//       rect(60*i,0,30,30)
-//     }else{
-//       fill(0)
-//       rect(30+(60*i),0,30,30)
-//     }
-//   }
+ // let spacing =
+  for(let i=0; i<8; i++){
+    if(i%2==0){
+      fill(255)
+      rect(60*i,0,30,30)
+    }else{
+      fill(0)
+      rect(30+(60*i),0,30,30)
+    }
+  }
 }

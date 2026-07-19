@@ -30,7 +30,8 @@ function draw() {
 //   rect(50 + (i*3), 150, 30,30)}
   // Task 2: Colour Loop
   for(let i=0; i <300; i++){
-    
+    noStroke();
+    FileList()
   }
   // Task 3: Row of Circles
 

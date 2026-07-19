@@ -29,10 +29,13 @@ function draw() {
 //   fill(300-(10*i));
 //   rect(50 + (i*3), 150, 30,30)}
   // Task 2: Colour Loop
-  for(let i=0; i <300; i++){
-    noStroke();
-    fill(i*255/300);
-    rect(50+i,275,1,50)
+  // for(let i=0; i <300; i++){
+  //   noStroke();
+  //   fill(i*255/300);
+  //   rect(50+i,275,1,50)
+  // }
+  for(let i=0;i<8;i++){
+    
   }
   // Task 3: Row of Circles
 

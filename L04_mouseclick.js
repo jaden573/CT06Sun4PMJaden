@@ -34,5 +34,5 @@ function draw(){
 //   ellipse(mouseX,mouseY,10,10)
 // }
 function mouseDragged(){
-    ellipse(mouseX,mouseY,)
+    ellipse(mouseX,mouseY,random(20),random(20))
 }

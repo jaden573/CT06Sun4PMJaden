@@ -3,7 +3,7 @@ let shapecolour = 'blue'
 
 function setup(){
     createCanvas(600,400);
-    background(220);
+    background(220);  ell
 }
 
 function draw(){
@@ -15,7 +15,7 @@ function draw(){
     //fill(r,g,b); between 0 and 255
     if(mousePressed){
         function mouseMoved(){
-            ellipse(mouseX,mouseY,10,10)
+          ellipse(mouseX,mouseY,10,10)
         }
     }
 }

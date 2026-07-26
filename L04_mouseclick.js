@@ -15,7 +15,7 @@ function draw(){
     //fill(r,g,b); between 0 and 255
     if(mousePressed){
         function mouseMoved(){
-            
+            ellipse(mouseX,mouseY,)
         }
     }
 }

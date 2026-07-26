@@ -18,7 +18,7 @@ function draw(){
 
 function mousePressed(){
     shapecolour = color(random(255),random(255),random(255));
-    circle(random(40,))
+    circle(random(600),random)
 }
 
 function mouseReleased(){

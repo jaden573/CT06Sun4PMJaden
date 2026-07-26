@@ -31,5 +31,5 @@ function draw(){
 
 function mouseMoved(){
   size += 1
-  ellipse(mouseX,mouseY,)
+  ellipse(mouseX,mouseY,10,10)
 }

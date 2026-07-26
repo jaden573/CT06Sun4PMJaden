@@ -19,7 +19,7 @@ function draw(){
 function mousePressed(){
     shapecolour = color(random(255),random(255),random(255));
     circle(random(600),random(400),random(40))
-    triangle(random)
+    triangle(random())
 }
 
 function mouseReleased(){

@@ -4,7 +4,7 @@ function setup() {
     noLoop(); // Stops continuous drawing
   }
   
-{
+
 //   // Recap 1: Repeating Circles
 //   fill(50,100,400);
 //   ellipse(75,200,100);
@@ -66,4 +66,4 @@ function setup() {
       ellipse(x, rowY, circleDiameter, circleDiameter)
     }
   }
-}}
+}

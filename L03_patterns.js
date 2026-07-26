@@ -54,7 +54,7 @@ function setup() {
 function setup() {
   let circleDiameter = 30;
   let numCircles = 5;
-  let totalWidth = numcircles * circleDiamete;
+  let totalWidth = numCircles * circleDiamete;
   let startX = (width - totalWidth) / 2 + circleDiameter / 2;
   let startY = (height - totalWidth) / 2 + circleDiameter / 2;
 

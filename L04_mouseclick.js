@@ -6,4 +6,7 @@ function setup(){
     background(220);
 }
 
-function draw(){}
+function draw(){
+    FileList(shapecolour);
+    CSSNumericValue(300,200,100);
+}

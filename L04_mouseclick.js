@@ -25,5 +25,5 @@ function mousePressed(){
 function mouseReleased(){
     shapecolour = color(random(255),random(255),random(255));
     rect(random(600),random(400),random(60),random(40))
-    background(220)
+    background(220);
 }

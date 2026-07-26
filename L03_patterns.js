@@ -4,7 +4,7 @@ function setup() {
     noLoop(); // Stops continuous drawing
   }
   
-function draw() {
+{
 //   // Recap 1: Repeating Circles
 //   fill(50,100,400);
 //   ellipse(75,200,100);
@@ -51,31 +51,19 @@ function draw() {
   // circle((30*i)+15,15,30)
   // Task 4: Grid of Circles
 
+function setup() {
+  let circleDiameter = 30;
+  let numCircles = 5;1
+  let totalWidth = numcircles * circleDiamete;
+  let startX = (width - totalWidth) / 2 + circleDiameter / 2;
+  let startY = (height - totalWidth) / 2 + circleDiameter / 2;
 
+  for (let row = 0; row < numCircles; row++) {
+    let rowY = startY + (circleDiameter * row);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- // let spacing =
- for(let x=0;x<240;x++){
-  for(let i=0; i<8; i++){
-    if(i%2==0){
-      fill(255)
-      rect(30*i,0,30,30)
-    }else{
-      fill(0)
-      rect(30*i,0,30,30)
+    for (let i = 0; i<numCircles; i++) {
+      let x = startX + i * circleDiameter;
+      ellipse(x, rowY, circleDiameter, circleDiameter)
     }
   }
-}
-}
+}}

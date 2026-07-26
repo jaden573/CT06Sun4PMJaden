@@ -17,9 +17,9 @@ function draw(){
 }
 
 function mousePressed(){
-    shapecolour = fill(random(255),random(255),random(255));;
+    shapecolour = (random(255),random(255),random(255));;
 }
 
 function mouseReleased(){
-    shapecolour = fill(random(255),random(255),random(255));
+    shapecolour = (random(255),random(255),random(255));
 }

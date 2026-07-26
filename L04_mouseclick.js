@@ -30,5 +30,5 @@ function draw(){
 // }
 
 function mouseMoved(){
-  size
+  size += 1
 }

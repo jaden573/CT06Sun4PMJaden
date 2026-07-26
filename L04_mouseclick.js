@@ -34,6 +34,7 @@ function draw(){
 //   ellipse(mouseX,mouseY,10,10)
 // }
 function mouseDragged(){
-    let ssize = random(5,20)
+    let ssize = random(5,20);
     fill(random(255),random(255),random(255));
+    
 }

@@ -9,7 +9,7 @@ function setup(){
 function draw(){
     fill(shapecolour);
     circle(300,200,100);
-    //random(); _>
+    //random(); -> generate a num between 0 amd 1
 }
 
 function mousePressed(){

@@ -15,3 +15,6 @@ function mousePressed(){
     shapecolour = 'red';
 }
 
+function mouseReleased(){
+    
+}

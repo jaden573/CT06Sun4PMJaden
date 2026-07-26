@@ -29,4 +29,10 @@ function draw(){
 //     background(220);
 // }
 
-?
+// function mouseMoved(){
+//   size += 1
+//   ellipse(mouseX,mouseY,10,10)
+// }
+function mouseDragged(){
+    
+}

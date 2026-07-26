@@ -10,3 +10,7 @@ function draw(){
     FileList(shapecolour);
     circle(300,200,100);
 }
+
+function mousePressed(){
+    
+}

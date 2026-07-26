@@ -27,3 +27,7 @@ function mouseReleased(){
     rect(random(600),random(400),random(60),random(40))
     background(220);
 }
+
+function mouseMoved(){
+    
+}

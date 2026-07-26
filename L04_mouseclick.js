@@ -36,5 +36,5 @@ function draw(){
 function mouseDragged(){
     let ssize = random(5,20);
     fill(random(255),random(255),random(255));
-    
+    circle(mouseX + rando)
 }

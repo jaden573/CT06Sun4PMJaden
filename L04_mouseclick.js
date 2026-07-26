@@ -2,7 +2,7 @@
 let shapecolour = 'blue'
 
 function setup(){
-
+    createCanvas
 
 
 }

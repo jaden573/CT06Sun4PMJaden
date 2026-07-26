@@ -13,7 +13,7 @@ function draw(){
     //random(one number); ->generate num between 0 and the number
     //random(low num, high num); -> gen num between low and high num
     //fill(r,g,b); between 0 and 255
-    fill(random(255),random(255),random(255));
+    
 }
 
 function mousePressed(){

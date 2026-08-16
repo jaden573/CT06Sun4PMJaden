@@ -27,7 +27,7 @@ function keyPressed () {
     }
 }
 function keyReleased(){
-    beckground(220);
+    background(220);
     console.log("key:",key);
     console.log("keycode:",keyCode);
 }

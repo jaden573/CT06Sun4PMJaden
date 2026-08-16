@@ -16,6 +16,7 @@ function mouseDragged() {
 
 //================================================================
 function keyPressed () {
+    background(220);
     let numCircles = floor(random(5,21))
     for(let i=0; i < numCircles;++1){
         let x = random(width)

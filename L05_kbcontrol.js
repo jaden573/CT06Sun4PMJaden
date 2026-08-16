@@ -4,7 +4,7 @@ let ballcolor;
 function setup () {
     createCanvas(600,400);
     background(220);
-    ballcolor=color(255)
+    ballcolor=color(255,0,0)
 }
 
 function mousePressed() {

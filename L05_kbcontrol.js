@@ -52,6 +52,8 @@ function keyPressed(){
     if(keyCode === '37'){
         r = 100
         g = 10
-        b
+        b = 10
     }
+    if(keyCode === '40')
+        r=0
 }

@@ -87,7 +87,7 @@ function draw(){
     y+=speed}
     if(keyIsDown(UP_ARROW)){
     y-=speed}
-   
+   x=constrain()
 
    
     

@@ -31,6 +31,7 @@ function mouseDragged() {
 
 // }
 function draw(){
+    background(220)
     if(key === 'c' || key === 'C'){
         circle(x,y,size);}
     if(key === 's' || key === 'S'){

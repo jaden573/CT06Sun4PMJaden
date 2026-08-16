@@ -55,7 +55,7 @@ function draw(){
        ballcolor= color(255,0,0) 
         
     }
-    if(keyCode === '40')
+    if(keyCode === 40)
        {
         ballcolor = color(0,0,0)}
 }

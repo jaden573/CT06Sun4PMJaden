@@ -62,5 +62,8 @@ function draw(){
 
 function draw(){
     circle(50,50,50)
-    if(key === 'w' || key === 'W')
+    
+    if(key === 'w' || key === 'W'){
+
+    }
 }

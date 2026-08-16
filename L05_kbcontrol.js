@@ -36,6 +36,6 @@ function draw(){
     if(key === 's' || key === 'S'){
     square(x,y,size)}
         if(key ==='t' || key === 'T'){
-            triangle(x1,y1,x2,y2,x3,150)
+            triangle(x1,y1,x2,y2,x3,y3)
         }
 }

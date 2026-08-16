@@ -56,4 +56,6 @@ function keyPressed(){
     }
     if(keyCode === '40')
         r=0
+    g=0
+    b=0
 }

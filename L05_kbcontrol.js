@@ -49,7 +49,7 @@ function draw(){
     fill(r,g,b)
 }
 function keyPressed(){
-    if(keyCode === '37'){
+    if(keyCode === '38'){
         function draw(){
     circle(300,200,50)}
         r = 100

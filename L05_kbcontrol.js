@@ -46,7 +46,7 @@ function draw(){
 }
 function draw(){
     circle(300,200,50)
-    fill(30,30,30)
+    fill(r,30,30)
 }
 function keyPressed(){
     if(keyCode === '37'){

@@ -31,19 +31,19 @@ function keyReleased(){
     console.log("key:",key);
     console.log("keycode:",keyCode);
 }
-function draw(){
-    background(220);
-    if(key === 'x' || key === 'X'){
+// function draw(){
+//     background(220);
+//     if(key === 'x' || key === 'X'){
 
-    }
-    if(key === 'c' || key === 'C'){
-        circle(x,y,size);}
-    if(key === 's' || key === 'S'){
-    square(x,y,size)}
-        if(key ==='t' || key === 'T'){
-            triangle(x1,y1,x2,y2,x3,y3)
-        }
-}
+//     }
+//     if(key === 'c' || key === 'C'){
+//         circle(x,y,size);}
+//     if(key === 's' || key === 'S'){
+//     square(x,y,size)}
+//         if(key ==='t' || key === 'T'){
+//             triangle(x1,y1,x2,y2,x3,y3)
+//         }
+// }
 function draw(){
     circle(300,200,50)
     fill(r,g,b)

@@ -6,7 +6,7 @@ function setup () {
 function draw(){}
 function mousePressed() {
     colors = color(random(255), random(255), random(255));
-    size = 5;
+    size = 80;
 }
 function mouseDragged() {
     fill(colors)

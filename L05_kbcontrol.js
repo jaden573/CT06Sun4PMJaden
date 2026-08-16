@@ -51,7 +51,7 @@ function draw(){
 function keyPressed(){
     if(keyCode === '37'){
         r = 100
-        g = 10
+        g = 100
         b = 10
     }
     if(keyCode === '40')

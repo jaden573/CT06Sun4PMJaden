@@ -57,5 +57,5 @@ function keyPressed(){
     }
     if(keyCode === '40')
        
-        ballcolor(0)
+        ballcolor(0,0,0)
 }

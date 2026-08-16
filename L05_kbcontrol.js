@@ -62,7 +62,7 @@ function draw(){
 
 function draw(){
     circle(50,50,50)
-    
+    ballcolor = color()
     if(key === 'w' || key === 'W'){
 
     }

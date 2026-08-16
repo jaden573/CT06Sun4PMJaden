@@ -48,6 +48,7 @@ function keyReleased(){
 //         }
 // }
 function draw(){
+    background
     fill(ballcolor)
     circle(300,200,50)
     if(keyCode === '38'){

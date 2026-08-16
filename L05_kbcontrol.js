@@ -66,7 +66,10 @@ function draw(){
     if(key === 'w' || key === 'W'){
         ballcolor = color(255,255,255)
     if(key === 'r' || key === 'R'){
-        ballcolor = color()
+        ballcolor = color(255,0,0)
+    if(key === 'y' || key === 'Y'){
+        
+    }
     }
     }
 }

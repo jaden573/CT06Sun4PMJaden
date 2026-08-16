@@ -18,7 +18,7 @@ function mouseDragged() {
 function keyPressed () {
     background(220);
     let numCircles = floor(random(5,21))
-    for(let i=0; i < numCircles;++1){
+    for(let i=0; i < numCircles;i++){
         let x = random(width)
         let y = random(height)
         let size = random(5,40)
@@ -28,5 +28,8 @@ function keyPressed () {
 }
 function keyReleased(){
     beckground(220);
+
+}
+function draw(){
     
 }

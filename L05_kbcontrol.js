@@ -50,9 +50,6 @@ function keyReleased(){
 function draw(){
     fill(ballcolor)
     circle(300,200,50)
-    
-}
-function keyPressed(){
     if(keyCode === '38'){
        ballcolor= color(255,0,0) 
         
@@ -60,4 +57,7 @@ function keyPressed(){
     if(keyCode === '40')
        
         ballcolor = color(0,0,0)
+}
+function keyPressed(){
+    
 }

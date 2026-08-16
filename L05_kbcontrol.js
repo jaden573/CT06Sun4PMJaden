@@ -28,7 +28,7 @@ function keyPressed () {
 }
 function keyReleased(){
     beckground(220);
-    console.log()
+    console.log("key:")
 }
 function draw(){
     background(220);

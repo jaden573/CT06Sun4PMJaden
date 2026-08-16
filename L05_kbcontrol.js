@@ -64,6 +64,9 @@ function draw(){
     circle(50,50,50)
     ballcolor = color(100,50,100)
     if(key === 'w' || key === 'W'){
-        ballcolor 
+        ballcolor = color(255,255,255)
+    if(key === 'r' || key === 'R'){
+        
+    }
     }
 }

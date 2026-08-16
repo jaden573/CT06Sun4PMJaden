@@ -34,8 +34,8 @@ function draw(){
     if(key === 'c' || key === 'C'){
         circle(x,y,size);}
     if(key === 's' || key === 'S'){
-    square(x,y,80)}
+    square(x,y,size)}
         if(key ==='t' || key === 'T'){
-            triangle(100,50,50,150,150,150)
+            triangle(10,50,50,150,150,150)
         }
 }

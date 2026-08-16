@@ -31,5 +31,8 @@ function keyReleased(){
 
 }
 function draw(){
-    
+    if(key === 'c' || key === 'C'){
+        circle(100,100,80);}
+    if(key === 's' || key === 'S'){
+    square(60,60,80)}
 }

@@ -15,25 +15,25 @@ function mouseDragged() {
 }
 
 //================================================================
-// function keyPressed () {
-//     background(220);
-//     let numCircles = floor(random(5,21))
-//     for(let i=0; i < numCircles;i++){
-//         let x = random(width)
-//         let y = random(height)
-//         let size = random(5,40)
-//         fill(random(255),random(255),random(255))
-//         circle(x,y,size);
-//     }
-// }
-// function keyReleased(){
-//     beckground(220);
+function keyPressed () {
+    background(220);
+    let numCircles = floor(random(5,21))
+    for(let i=0; i < numCircles;i++){
+        let x = random(width)
+        let y = random(height)
+        let size = random(5,40)
+        fill(random(255),random(255),random(255))
+        circle(x,y,size);
+    }
+}
+function keyReleased(){
+    beckground(220);
 
-// }
+}
 function draw(){
     background(220);
     if(key === 'x' || key === 'X'){
-        
+
     }
     if(key === 'c' || key === 'C'){
         circle(x,y,size);}

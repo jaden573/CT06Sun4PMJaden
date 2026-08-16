@@ -69,7 +69,7 @@ function draw(){
         ballcolor = color(255)}
     else if(key === 'r' || key === 'R'){
         ballcolor = color(255,0,0)}
-    else if(key === 'y' || key === 'Y'){
+    else if(key === 'g' || key === 'G'){
         ballcolor = color(200,0,200)
     }
     }

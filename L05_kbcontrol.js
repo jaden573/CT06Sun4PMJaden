@@ -78,7 +78,7 @@ function draw(){
         else{
             ballcolor = color(255,255,0);
         }
-   if(keyCode = 37){
+   if(keyIs){
     y+=3
    }
    

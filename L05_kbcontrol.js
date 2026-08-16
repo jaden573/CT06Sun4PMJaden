@@ -29,7 +29,7 @@ function keyPressed () {
 function keyReleased(){
     beckground(220);
     console.log("key:",key);
-    console.log
+    console.log("keycode:")
 }
 function draw(){
     background(220);

@@ -62,7 +62,7 @@ function keyReleased(){
 // }
 
 function draw(){
-    FileList(ballcolor)
+    fill(ballcolor)
     circle(300,200,50)
     ccolor = color(100,50,100)
     if(key === 'w' || key === 'W'){

@@ -79,7 +79,7 @@ function draw(){
             ballcolor = color(255,255,0);
         }
    if(keyIsDown(UP_ARROW)){
-    y+=3
+    x-=speed
    }
    
     }

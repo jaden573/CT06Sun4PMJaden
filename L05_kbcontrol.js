@@ -8,15 +8,15 @@ function setup () {
     ballcolor=color(255,0,0)
 }
 
-function mousePressed() {
-    colors = color(random(255), random(255), random(255));
-    size = 5;
-}
-function mouseDragged() {
-    fill(colors)
-    circle(mouseX,mouseY,size)
-    size+=0.5
-}
+// function mousePressed() {
+//     colors = color(random(255), random(255), random(255));
+//     size = 5;
+// }
+// function mouseDragged() {
+//     fill(colors)
+//     circle(mouseX,mouseY,size)
+//     size+=0.5
+// }
 
 //================================================================
 function keyPressed () {

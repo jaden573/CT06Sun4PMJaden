@@ -1,6 +1,7 @@
 // write your codes here
 let r,g,b;
 let ballcolor;
+let 
 function setup () {
     createCanvas(600,400);
     background(220);

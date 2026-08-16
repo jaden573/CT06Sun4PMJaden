@@ -78,7 +78,7 @@ function draw(){
         else{
             ballcolor = color(255,255,0);
         }
-   if(keyIsDown){
+   if(keyIsDown(UP_ARROW)){
     y+=3
    }
    

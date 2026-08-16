@@ -47,14 +47,12 @@ function keyReleased(){
 // }
 function draw(){
     circle(300,200,50)
-    fill(r,g,b)
+    fill()
 }
 function keyPressed(){
     if(keyCode === '38'){
         
-        r = 100
-        g = 100
-        b = 10
+        
     }
     if(keyCode === '40')
        

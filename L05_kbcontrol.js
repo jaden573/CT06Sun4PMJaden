@@ -5,4 +5,5 @@ function setup () {
 }
 function mouseDragged() {
     colors = (random(255), random(255), random(255))
+    size = 5
 }

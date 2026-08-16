@@ -48,18 +48,18 @@ function keyReleased(){
 //             triangle(x1,y1,x2,y2,x3,y3)
 //         }
 // }
-function draw(){
-    background(220);
-    fill(ballcolor);
-    circle(300,200,50);
-    if(keyCode === 38){
-       ballcolor= color(255,0,0) 
+// function draw(){
+//     background(220);
+//     fill(ballcolor);
+//     circle(300,200,50);
+//     if(keyCode === 38){
+//        ballcolor= color(255,0,0) 
         
-    }
-    if(keyCode === 40)
-       {
-        ballcolor = color(0,0,0)}
-}
+//     }
+//     if(keyCode === 40)
+//        {
+//         ballcolor = color(0,0,0)}
+// }
 
 function draw(){
     circle(300,200,50)

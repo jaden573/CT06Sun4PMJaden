@@ -46,10 +46,12 @@ function draw(){
 }
 function draw(){
     circle(300,200,50)
-    fill(r,30,30)
+    fill(r,g,b)
 }
 function keyPressed(){
     if(keyCode === '37'){
-
+        r = 100
+        g = 10
+        b
     }
 }

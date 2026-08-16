@@ -52,12 +52,10 @@ function draw(){
 }
 function keyPressed(){
     if(keyCode === '38'){
-        
+       ballcolor(255,0,0) 
         
     }
     if(keyCode === '40')
        
-        r=0
-        g=0
-        b=0
+        ballcolor
 }

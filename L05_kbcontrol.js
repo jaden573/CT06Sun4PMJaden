@@ -8,5 +8,6 @@ function mousePressed() {
     size = 5;
 }
 function mouseDragged() {
+    FileList(colors)
     
 }

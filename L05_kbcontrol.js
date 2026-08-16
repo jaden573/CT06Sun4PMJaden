@@ -4,6 +4,6 @@ function setup () {
     background(220);
 }
 function mouseDragged() {
-    colors = (random(255), random(255), random(255))
-    size = 5
+    colors = color(random(255), random(255), random(255));
+    size = 5;
 }

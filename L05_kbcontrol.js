@@ -74,5 +74,7 @@ function draw(){
         else{
             ballcolor = color(255,255,0);
         }
+   
+   
     }
     

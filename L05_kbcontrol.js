@@ -7,3 +7,6 @@ function mousePressed() {
     colors = color(random(255), random(255), random(255));
     size = 5;
 }
+function mouseDragged() {
+    
+}

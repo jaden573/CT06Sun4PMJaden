@@ -57,7 +57,9 @@ function keyPressed(){
         b = 10
     }
     if(keyCode === '40')
+        function draw(){
+    circle(300,200,50)}
         r=0
         g=0
-    b=0
+        b=0
 }

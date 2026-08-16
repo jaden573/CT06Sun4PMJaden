@@ -32,7 +32,7 @@ function mouseDragged() {
 // }
 function draw(){
     background(220);
-    if(key === 'x' )
+    if(key === 'x' || key === 'X')
     if(key === 'c' || key === 'C'){
         circle(x,y,size);}
     if(key === 's' || key === 'S'){

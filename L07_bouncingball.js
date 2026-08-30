@@ -24,7 +24,7 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=3;
     }
-    image(pico,x,y,)
+    image(pico,x,y,picowidth,100);
     }
   function keyPressed(){
         if(key=== ""){

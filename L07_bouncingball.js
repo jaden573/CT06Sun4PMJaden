@@ -33,9 +33,5 @@
 //             popSound.loop ();
 //         }
 //     }
-//     function draw(){
-//         background(220)
-        
-        
-//     }
+function setup
 

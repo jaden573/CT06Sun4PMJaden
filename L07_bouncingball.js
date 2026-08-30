@@ -46,5 +46,7 @@ function draw(){
     if(ballx==500){
         ballx-=random(ballspeed)
     }
-    if(bally==350)
+    if(bally==350){
+        bally
+    }
 }

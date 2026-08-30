@@ -35,5 +35,6 @@ function draw(){
     }
     function draw(){
         background(220)
-        ballx = 50
+        circle
+        
     }

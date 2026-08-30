@@ -44,6 +44,6 @@ function draw(){
     ballx+=ballspeed
     bally-=ballspeed
     if(ballx==500){
-        
+        ballx-=ballspeed
     }
 }

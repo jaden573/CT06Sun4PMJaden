@@ -1,8 +1,10 @@
-// let pico, popSound;
-// let x = 200;
-// let y = 200;
-// let picowidth = 100;
-// let ballx, bally, ballspeed;
+let pico, popSound;
+let x = 200;
+let y = 200;
+let picowidth = 100;
+let ballx = 100
+let bally = 50
+let ballspeed = 3
 // function preload(){
 //     pico = loadImage('assets/pico-a.png');
 //     popSound = loadSound('assets/pop.mp3');
@@ -39,6 +41,9 @@ function setup(){
 }
 function draw(){
     circle(ballx, bally, 10);
-    ballx+=3
-    bally-=3
+    ballx+=ballspeed
+    bally-=ballspeed
+    if(ballx==500){
+        
+    }
 }

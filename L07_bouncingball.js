@@ -38,5 +38,6 @@ function setup(){
     background(220);
 }
 function draw(){
-    circle(ballx, bally, 10)
+    circle(ballx, bally, 10);
+    ballx
 }

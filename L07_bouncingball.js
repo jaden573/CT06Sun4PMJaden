@@ -1,4 +1,4 @@
-
+let pico, popSound
 
 
 function preload(){

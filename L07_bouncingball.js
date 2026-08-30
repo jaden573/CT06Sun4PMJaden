@@ -32,4 +32,7 @@ function draw(){
             popSound.loop ();
         }
     }
-    
+    function draw(){
+        background(220)
+        
+    }

@@ -37,6 +37,7 @@ let ballspeed = 3
 //     }
 function setup(){
     createCanvas(600,400);
+    popSound.sound
     background(220);
 }
 function draw(){

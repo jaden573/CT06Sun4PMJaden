@@ -24,10 +24,11 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=3;
     }
-    function keyPressed(){
+  
+    }
+  function keyPressed(){
         if(key=== ""){
             picowidth /=2;
             popSound.play ();
         }
-    }
     }

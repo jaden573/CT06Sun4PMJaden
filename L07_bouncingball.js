@@ -39,5 +39,5 @@ function setup(){
 }
 function draw(){
     circle(ballx, bally, 10);
-    ballx
+    if(ballx =)
 }

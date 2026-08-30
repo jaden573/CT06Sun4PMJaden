@@ -33,5 +33,8 @@
 //             popSound.loop ();
 //         }
 //     }
-function setup
+function setup(){
+    createCanvas(600,400)
+    c
+}
 

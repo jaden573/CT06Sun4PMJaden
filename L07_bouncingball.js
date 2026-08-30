@@ -43,7 +43,7 @@ function draw(){
     circle(ballx, bally, 10);
     ballx+=ballspeed
     bally-=ballspeed
-    if(ballx==500){
+    if(ballx>500){
         ballx-=random(3)*ballspeed
     }
     if(bally==350){

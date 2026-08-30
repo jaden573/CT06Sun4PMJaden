@@ -2,6 +2,7 @@ let pico, popSound;
 let x = 200;
 let y = 200;
 let picowidth = 100;
+let ballx, bally
 function preload(){
     pico = loadImage('assets/pico-a.png');
     popSound = loadSound('assets/pop.mp3');
@@ -34,5 +35,5 @@ function draw(){
     }
     function draw(){
         background(220)
-        
+
     }

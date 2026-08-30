@@ -35,6 +35,6 @@ function draw(){
     }
     function draw(){
         background(220)
-        circle
+        
         
     }

@@ -5,7 +5,7 @@ let ccolor;
 
 let x = 100;
 let y = 100;
-let speed = 1
+let speed = 5
 function setup () {
     createCanvas(600,400);
     background(220);

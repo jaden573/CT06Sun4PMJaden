@@ -1,5 +1,5 @@
 let pico, popSound
-
+let x = 200
 
 function preload(){
 

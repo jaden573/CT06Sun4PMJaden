@@ -58,14 +58,14 @@ function setup(){
 //         FileList(r,g,b)
 //     }
 // if(bally)
-function draw(){
-    square(x,y,50)
-    fill(r,g,b)
-    x+=ballspeed
-    if(x<0 || x>575){
-        x-=ballspeed
-        r=random(255);
-        g=random(255);
-        b=random(255);
-    }
-}
+// function draw(){
+//     square(x,y,50)
+//     fill(r,g,b)
+//     x+=ballspeed
+//     if(x<0 || x>575){
+//         x-=ballspeed
+//         r=random(255);
+//         g=random(255);
+//         b=random(255);
+//     }
+// }

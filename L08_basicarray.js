@@ -2,4 +2,4 @@ function setup(){
     createCanvas(400,400)
     background(220)
 }
-textSize = 32
+textSize(32)

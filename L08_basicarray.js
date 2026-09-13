@@ -1,4 +1,4 @@
-let favfood = ["potato chi["]
+let favfood = ["potato chip", "Ramen"]
 function setup(){
     createCanvas(400,400)
     background(220)

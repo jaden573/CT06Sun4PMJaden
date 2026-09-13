@@ -64,6 +64,6 @@ function draw(){
     x+=ballspeed
     if(x<0 || x>575){
         x-=ballspeed
-        
+        r=random(255);
     }
 }

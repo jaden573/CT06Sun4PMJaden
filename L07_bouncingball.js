@@ -73,5 +73,8 @@ function draw(){
     background(220)
     fill(r,g,b)
     rect(x,200,40,40)
-    x =+=ballspeed
+    x += ballspeed
+    if(x < 0 || x>= 360){
+        s
+    }
 }

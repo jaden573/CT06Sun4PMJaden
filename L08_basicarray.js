@@ -4,7 +4,8 @@ function setup(){
     background(220)
 }
 function draw(){
-textSize(32);
+textSize(20);
+text
 // text("hi" ,0,200);
 // text("jaden" ,50,50);
 // text("15" , 50,100);

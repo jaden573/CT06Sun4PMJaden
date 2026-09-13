@@ -1,5 +1,5 @@
 let favfood = ["potato chip", "Ramen", "Pizza", "chicken rice", "skittles"];
-let yPOS = 
+let yPOS = 500
 function setup(){
     createCanvas(400,400)
     background(220)

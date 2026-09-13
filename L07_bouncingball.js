@@ -56,5 +56,5 @@ function setup(){
 //     }
 // if(bally)
 function draw(){
-    square(20,20,20)
+    square(0,0,50)
 }

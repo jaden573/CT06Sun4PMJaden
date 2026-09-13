@@ -10,7 +10,7 @@ textAlign(LEFT);
 // text("jaden" ,50,50);
 // text("15" , 50,100);
 // text("gaming" , 50, 150);
-text("my favourite food:")
+text("my favourite food:", 50,50)
 for(let i=0; i>favfood.length; i++){
     text((i+1) + "." + favfood[i],50,90 + i*20)
 }

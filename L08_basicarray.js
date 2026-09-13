@@ -5,4 +5,5 @@ function setup(){
 textSize(32);
 text("hi" ,0,200);
 text("jaden" ,50,50)
-text("15")
+text("15" , 50,100)
+text()

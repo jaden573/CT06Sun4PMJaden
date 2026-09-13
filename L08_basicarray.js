@@ -7,7 +7,7 @@ function preload(){
 }
 function setup(){
     createCanvas(400,400)
- 
+    bgSound.loop();
 }
 function draw(){
        background(0)

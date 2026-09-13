@@ -4,4 +4,4 @@ function setup(){
 }
 textSize(32);
 text("hi" ,0,200);
-text()
+text("jaden" ,50,50)

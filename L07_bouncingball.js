@@ -72,5 +72,6 @@ function setup(){
 function draw(){
     background(220)
     fill(r,g,b)
-    Reflect(x,200,40,40)
+    rect(x,200,40,40)
+    x =+=ballspeed
 }

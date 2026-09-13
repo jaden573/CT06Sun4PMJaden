@@ -10,7 +10,7 @@ function setup(){
  
 }
 function draw(){
-       background(220)
+       background(0)
 textSize(20);
 fill(100)
 textAlign(LEFT);

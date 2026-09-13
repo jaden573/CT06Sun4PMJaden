@@ -57,5 +57,5 @@ function setup(){
 // if(bally)
 function draw(){
     square(x,y,50)
-    x+=
+    x+=ballspeed
 }

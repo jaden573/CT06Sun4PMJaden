@@ -1,5 +1,5 @@
 let pico, popSound;
-let x = 200;
+let x = 0;
 let y = 200;
 let picowidth = 100;
 let ballx = 100
@@ -56,6 +56,6 @@ function setup(){
 //     }
 // if(bally)
 function draw(){
-    square(300,200,50)
+    square(x,200,50)
     
 }

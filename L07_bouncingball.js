@@ -6,10 +6,10 @@ let ballx = 100
 let bally = 50
 let ballspeed = 3
 let ballsize=10
-// function preload(){
-//     pico = loadImage('assets/pico-a.png');
-//     popSound = loadSound('assets/pop.mp3');
-// }
+ function preload(){
+     pico = loadImage('assets/pico-a.png');
+     popSound = loadSound('assets/pop.mp3');
+ }
 // function setup (){
 //     createCanvas(400,400);
 //     background(220);

@@ -78,6 +78,6 @@ function draw(){
         ballspeed = -ballspeed
         r = random(255);
         g = random(255);
-        r = random(255);
+        b = random(255);
     }
 }

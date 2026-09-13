@@ -76,6 +76,6 @@ function draw(){
     x += ballspeed
     if(x < 0 || x>= 360){
         ballspeed = -ballspeed
-        
+        r = random(255);
     }
 }

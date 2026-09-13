@@ -3,4 +3,4 @@ function setup(){
     background(220)
 }
 textSize(32);
-text("hi" )
+text("hi" ,0,200);

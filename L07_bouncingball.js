@@ -69,3 +69,8 @@ function setup(){
 //         b=random(255);
 //     }
 // }
+function draw(){
+    background(220)
+    FileList(r,g,b)
+    
+}

@@ -4,7 +4,7 @@ let y = 175;
 let picowidth = 100;
 let ballx = 100
 let bally = 50
-let ballspeed = 3
+let ballspeed = 30
 let ballsize=10
  function preload(){
      pico = loadImage('assets/pico-a.png');

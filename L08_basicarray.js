@@ -2,9 +2,10 @@ let favfood = ["potato chip", "Ramen", "Pizza", "chicken rice", "skittles"];
 let yPOS = 400
 function setup(){
     createCanvas(400,400)
-    background(220)
+ 
 }
 function draw(){
+       background(220)
 textSize(20);
 fill(100)
 textAlign(LEFT);

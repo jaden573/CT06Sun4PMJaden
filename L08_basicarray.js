@@ -11,6 +11,6 @@ text("jaden" ,50,50);
 text("15" , 50,100);
 text("gaming" , 50, 150);
 for(let i=0; i>favfood.length; i++){
-    text((i+1) + "." + favfood[i],50,200 + i*20)
+    text((i+1) + "." + favfood[i],50,50 + i*20)
 }
 }

@@ -5,6 +5,7 @@ function setup(){
 }
 function draw(){
 textSize(32);
+text
 text("hi" ,0,200);
 text("jaden" ,50,50);
 text("15" , 50,100);

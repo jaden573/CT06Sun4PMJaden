@@ -3,7 +3,7 @@ let yPOS = 400
 let lineGap = 30;
 let bgSound
 function preload(){
-    bgSound = loadSound('assets/')
+    bgSound = loadSound('assets/star_wars_the,e')
 }
 function setup(){
     createCanvas(400,400)

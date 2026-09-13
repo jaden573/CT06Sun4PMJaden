@@ -6,6 +6,8 @@ let ballx = 100
 let bally = 50
 let ballspeed = 30
 let ballsize=10
+let r = 100
+let 
  function preload(){
      pico = loadImage('assets/pico-a.png');
      popSound = loadSound('assets/pop.mp3');

@@ -75,6 +75,7 @@ function draw(){
     rect(x,200,40,40)
     x += ballspeed
     if(x < 0 || x>= 360){
-        s
+        ballspeed = -ballspeed
+        
     }
 }

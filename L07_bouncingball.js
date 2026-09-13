@@ -62,5 +62,8 @@ function draw(){
     square(x,y,50)
     fill(r,g,b)
     x+=ballspeed
-    if(x<0 || x>575)
+    if(x<0 || x>575){
+        x-=ballspeed
+        
+    }
 }

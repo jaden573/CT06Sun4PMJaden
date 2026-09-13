@@ -21,6 +21,6 @@ for(let i=0; i<favfood.length; i++){
 yPOS-=0.6
 
 if(yPOS< -favfood.length * lineGap){
-    yPOS
+    yPOS = height
 }
 }

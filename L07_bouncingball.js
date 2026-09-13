@@ -36,11 +36,11 @@ let ballsize=10
 //             popSound.loop ();
 //         }
 //     }
-// function setup(){
-//     createCanvas(600,400);
-//     popSound.play();
-//     background(220);
-// }
+function setup(){
+    createCanvas(600,400);
+    popSound.play();
+    background(220);
+}
 // function draw(){
 //     noStroke();
 //     if(!trail)(background(220);}
@@ -55,3 +55,6 @@ let ballsize=10
 //         FileList(r,g,b)
 //     }
 // if(bally)
+function draw(){
+    square()
+}

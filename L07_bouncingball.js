@@ -74,7 +74,7 @@ function draw(){
     fill(r,g,b)
     rect(x,200,40,40)
     x += ballspeed
-    if(x < 0 || x>= 360){
+    if(x < 0 || x>= 400){
         ballspeed = -ballspeed
         r = random(255);
         g = random(255);

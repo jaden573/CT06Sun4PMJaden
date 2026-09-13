@@ -5,6 +5,7 @@ let picowidth = 100;
 let ballx = 100
 let bally = 50
 let ballspeed = 3
+let ballsize=10
 // function preload(){
 //     pico = loadImage('assets/pico-a.png');
 //     popSound = loadSound('assets/pop.mp3');
@@ -35,25 +36,22 @@ let ballspeed = 3
 //             popSound.loop ();
 //         }
 //     }
-function setup(){
-    createCanvas(600,400);
-    popSound.play();
-    background(220);
-}
-function draw(){
-    circle(ballx, bally, 10);
-    ballx+=ballspeed
-    bally-=ballspeed
-    if(ballx>500){
-        ballx-=random(3)*ballspeed
-    }
-    if(ballx<100){
-        ballx+=random(3)*ballspeed
-    }
-    if(bally>350){
-        bally-=random(3)*ballspeed
-    }
-    if(bally<50){
-        bally+=random(3)*ballspeed
-    }
-}
+// function setup(){
+//     createCanvas(600,400);
+//     popSound.play();
+//     background(220);
+// }
+// function draw(){
+//     noStroke();
+//     if(!trail)(background(220);}
+//     circle(ballx,bally,ballsize)
+//     ballx += ballspeed
+//     bally +=ballspeed
+//     if(ballx + (ballsize/2) >= width || ballx - (ballsize/2)<=0){
+//         ballspeedx = -ballspeedx
+//         if(colorchange){
+//             r = random(255);g = random(255); b = random(255);
+//         }
+//         FileList(r,g,b)
+//     }
+// if(bally)

@@ -1,6 +1,6 @@
 let pico, popSound;
 let x = 0;
-let y = 200;
+let y = 175;
 let picowidth = 100;
 let ballx = 100
 let bally = 50

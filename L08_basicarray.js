@@ -12,7 +12,7 @@ function setup(){
 function draw(){
        background(0)
 textSize(20);
-fill(100)
+fill(255,255,0)
 textAlign(LEFT);
 // text("hi" ,0,200);
 // text("jaden" ,50,50);

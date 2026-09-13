@@ -5,6 +5,7 @@ function setup(){
 }
 function draw(){
 textSize(20);
+FileList(100)
 textAlign(LEFT);
 // text("hi" ,0,200);
 // text("jaden" ,50,50);

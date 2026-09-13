@@ -5,7 +5,7 @@ function setup(){
 }
 function draw(){
 textSize(20);
-text
+textAlign(LEFT);
 // text("hi" ,0,200);
 // text("jaden" ,50,50);
 // text("15" , 50,100);

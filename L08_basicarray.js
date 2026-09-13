@@ -1,8 +1,9 @@
 let favfood = ["potato chip", "Ramen", "Pizza", "chicken rice", "skittles"];
 let yPOS = 400
 let lineGap = 30;
+let bgSound
 function preload(){
-    
+
 }
 function setup(){
     createCanvas(400,400)

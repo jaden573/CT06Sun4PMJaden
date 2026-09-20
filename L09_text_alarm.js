@@ -12,7 +12,7 @@ function draw(){
    
     text("Bounce!",0 + x,200)
     x+=60
-    if(x> width - 60||x){
+    if(x> width - 60||x-60<0){
         x-=60
     }
 }

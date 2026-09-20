@@ -5,8 +5,9 @@ function setup(){
     background(220)
 }
 function draw(){
+    background(0)
     textSize(20)
-    FileList(255,255,0)
+    fill(255,255,0)
     textAllign(CENTER)
     text("Bounce!",300,200)
 

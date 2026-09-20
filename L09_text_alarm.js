@@ -1,6 +1,6 @@
 // write your codes here
-let x
-let y
+let x = 0
+let y = 0
 function setup(){
     createCanvas(600,400)
     background(220)
@@ -12,6 +12,6 @@ function draw(){
    
     text("Bounce!",300 + x,200 + y)
     for(let i=0; i<10; i++){
-        
+        x
     }
 }

@@ -63,5 +63,6 @@ function alarm(){
     bgsound.play
 }
 
-if(keycode === 32)
-    countdown = 5
+if(key === ' '){
+    
+}

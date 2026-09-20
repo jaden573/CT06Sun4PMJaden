@@ -14,5 +14,6 @@ function draw(){
     for(let i=0; i<10; i++){
         x+=2
         y+=2
+        
     }
 }

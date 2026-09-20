@@ -11,10 +11,5 @@ function draw(){
     fill(255,0,0)
    
     text("Bounce!",0 + x,200)
-    for(let i=0; i<20; i++){
-        x+=30*i
-        if(x > 600){
-        x-=30*i
-    }
-    }
+    
 }

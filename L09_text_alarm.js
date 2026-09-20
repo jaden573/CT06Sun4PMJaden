@@ -43,7 +43,8 @@ function mousePressed(){
             countdown -= 1;
         } else{
             clearInterval(interval);
-            interva
+            interval = setInterval(updateCountdown, 500)
+            
         }
     }
 }

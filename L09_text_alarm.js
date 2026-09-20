@@ -12,5 +12,7 @@ function draw(){
    
     text("Bounce!",0 + x,200)
     x+=60
-    
+    if(x>600){
+        x-=60
+    }
 }

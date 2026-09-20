@@ -46,6 +46,7 @@ function mousePressed(){
             interval = setInterval(updateCountdown, 500)
             function updateCountdown(){
                 background(random(220))
+                sound
             }
         }
     }

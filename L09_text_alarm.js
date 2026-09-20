@@ -56,7 +56,8 @@ function mousePressed(){
             }
         }
 function alarm(){
-    coloR
+    coloR = random(220);
+    coloG
 }
 function keyPressed(){
     if(keycode === 32)

@@ -61,8 +61,6 @@ function alarm(){
     coloB = random(220);
     bgsound.play
 }
-function keyPressed(){
-    if(keycode === 32)
-        countdown = 5
 
-}
+if(keycode === 32)
+    countdown = 5

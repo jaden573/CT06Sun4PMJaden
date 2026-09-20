@@ -11,5 +11,6 @@ function draw(){
     fill(255,0,0)
    
     text("Bounce!",0 + x,200)
+    x+=60
     
 }

@@ -1,6 +1,7 @@
 // write your codes here
 let x = 0
 let y = 0
+let speed = 2
 function setup(){
     createCanvas(600,400)
     background(220)
@@ -13,6 +14,6 @@ function draw(){
     text("Bounce!",0 + x,200)
     x+=speed
     if(x> width - 60||x-60<0){
-        x-=60
+        speed = -speed
     }
 }

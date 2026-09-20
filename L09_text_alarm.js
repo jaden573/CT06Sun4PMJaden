@@ -45,7 +45,7 @@ function mousePressed(){
             clearInterval(interval);
             interval = setInterval(updateCountdown, 500)
             function updateCountdown(){
-                
+                background(random(220))
             }
         }
     }

@@ -34,7 +34,7 @@ function setup(){
 
 let countdown = 5
 function draw(){
-    background(220)
+    background(coloR,coloG,coloB)
 
     textSize(32)
     text("Click to start countdown", width / 2, height - 50)

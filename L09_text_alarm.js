@@ -35,3 +35,5 @@ function draw(){
     textSize(100)
     text(countdown, width/2, height/2)
 }
+
+function 

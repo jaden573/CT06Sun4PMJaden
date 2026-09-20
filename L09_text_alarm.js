@@ -6,6 +6,7 @@ let bgsound
 let coloR = 220;
 let coloB = 220;
 let coloG = 220;
+let alarminterval;
 function preload(){
     bgsound = loadSound('assets/bossaNova.mp3'); 
 }

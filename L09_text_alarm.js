@@ -3,6 +3,7 @@
 // let y = 0
 // let speed = 2
 let bgsound
+let co
 function preload(){
     bgsound = loadSound('assets/bossaNova.mp3'); 
 }
@@ -53,5 +54,5 @@ function mousePressed(){
             }
         }
 function alarm(){
-    
+
 }

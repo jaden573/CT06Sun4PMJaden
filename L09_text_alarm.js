@@ -52,3 +52,4 @@ function mousePressed(){
             setInterval(alarm,500);
             }
         }
+set

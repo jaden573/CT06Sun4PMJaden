@@ -64,5 +64,6 @@ function alarm(){
 }
 
 if(key === ' '){
-    
+    coloR = 220;
+    coloB
 }

@@ -31,5 +31,5 @@ function draw(){
     text("Click to start countdown", width / 2, height - 50)
 
     textSize(100)
-    text()
+    text(countdown)
 }

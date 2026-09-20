@@ -42,7 +42,7 @@ function mousePressed(){
         if (countdown > 0) {
             countdown -= 1;
         } else{
-            clearInterval
+            clearInterval(interval);
         }
     }
 }

@@ -16,4 +16,5 @@ function draw(){
     if(x< width - 60||x-60>0){
         speed = -speed
     }
+    let h = hour()
 }

@@ -4,7 +4,8 @@
 // let speed = 2
 let bgsound
 let coloR = 220;
-let col
+let coloB = 220;
+let coloG = 220;
 function preload(){
     bgsound = loadSound('assets/bossaNova.mp3'); 
 }

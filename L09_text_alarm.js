@@ -70,5 +70,5 @@ if(key === ' '){
     coloB = 220;
     coloG = 220;
     coloB;
-    clear
+    clearInterval()
 }

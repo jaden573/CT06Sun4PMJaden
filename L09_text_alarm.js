@@ -56,9 +56,10 @@ function mousePressed(){
             }
         }
 function alarm(){
+    coloR
 }
 function keyPressed(){
     if(keycode === 32)
         countdown = 5
-    
+
 }

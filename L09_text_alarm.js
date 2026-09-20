@@ -1,5 +1,6 @@
 // write your codes here
-
+let x
+let y
 function setup(){
     createCanvas(600,400)
     background(220)

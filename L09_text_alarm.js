@@ -2,10 +2,10 @@
 // let x = 0
 // let y = 0
 // let speed = 2
-// function setup(){
-//     createCanvas(600,400)
-//     background(220)
-// }
+function setup(){
+    createCanvas(600,400)
+    background(220)
+}
 // function draw(){
 //     background(0)
 //     textSize(20)
@@ -24,6 +24,8 @@
 //     fill("gold")
 //     text(string,100,200);
 // }
+
+let countdown = 5
 function draw(){
     background(220)
 

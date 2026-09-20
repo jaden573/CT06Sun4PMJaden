@@ -17,5 +17,7 @@ function draw(){
         speed = -speed
     }
     let h = hour();
-    let 
+    let m = minute();
+    let s = second();
+    let string = nf
 }

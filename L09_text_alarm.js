@@ -4,7 +4,7 @@
 // let speed = 2
 let bgsound
 function preload(){
-    bgsound = loadSound(assets/bossaNova) 
+    bgsound = loadSound('assets/bossaNova.mp3'); 
 }
 function setup(){
     createCanvas(600,400)

@@ -28,5 +28,5 @@ function draw(){
     background(220)
 
     textSize(32)
-    
+    text("Click to start countdown")
 }

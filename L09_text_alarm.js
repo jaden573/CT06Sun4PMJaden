@@ -16,6 +16,5 @@ function draw(){
         if(x > 600){
         x-=30*i
     }
-    
     }
 }

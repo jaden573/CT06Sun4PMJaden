@@ -43,6 +43,7 @@ function mousePressed(){
             countdown -= 1;
         } else{
             clearInterval(interval);
+            
         }
     }
 }

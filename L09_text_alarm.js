@@ -13,7 +13,5 @@ function draw(){
     text("Bounce!",300 + x,200 + y)
     for(let i=0; i<10; i++){
         x+=30*i
-        y+=20*i
-        
     }
 }

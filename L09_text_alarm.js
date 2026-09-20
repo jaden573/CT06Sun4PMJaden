@@ -2,6 +2,9 @@
 // let x = 0
 // let y = 0
 // let speed = 2
+function preload(){
+    
+}
 function setup(){
     createCanvas(600,400)
     background(220)

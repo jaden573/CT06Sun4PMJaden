@@ -59,5 +59,5 @@ function alarm(){
 }
 function keyPressed(){
     if(keycode === 32)
-        coundown
+        countdown = 5
 }

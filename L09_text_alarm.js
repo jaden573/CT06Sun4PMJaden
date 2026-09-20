@@ -10,7 +10,7 @@ function draw(){
     textSize(20)
     fill(255,0,0)
    
-    text("Bounce!",300,200)
+    text("Bounce!",300 + x,200 + y)
     for(let i=0; i<10; i++){
         
     }

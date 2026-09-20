@@ -3,7 +3,7 @@
 // let y = 0
 // let speed = 2
 function preload(){
-    bossaNova.mp3.play
+    bgsound 
 }
 function setup(){
     createCanvas(600,400)

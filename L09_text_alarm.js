@@ -64,6 +64,8 @@ function alarm(){
 }
 
 if(key === ' '){
+    countdown = 5
+    
     coloR = 220;
     coloB = 220;
     coloG = 220;

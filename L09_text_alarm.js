@@ -12,6 +12,7 @@ function draw(){
    
     text("Bounce!",300 + x,200 + y)
     for(let i=0; i<10; i++){
-        x
+        x+=2
+        y+=2
     }
 }

@@ -65,7 +65,7 @@ function alarm(){
 
 if(key === ' '){
     countdown = 5
-    
+    bgsound.stop();
     coloR = 220;
     coloB = 220;
     coloG = 220;

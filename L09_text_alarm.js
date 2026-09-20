@@ -44,7 +44,9 @@ function mousePressed(){
         } else{
             clearInterval(interval);
             interval = setInterval(updateCountdown, 500)
-            
+            function updateCountdown(){
+                
+            }
         }
     }
 }

@@ -60,7 +60,7 @@ function alarm(){
     coloR = random(220);
     coloG = random(220);
     coloB = random(220);
-    bgsound.play
+    bgsound.play()
 }
 
 if(key === ' '){

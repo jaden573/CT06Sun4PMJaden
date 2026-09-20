@@ -25,5 +25,8 @@
 //     text(string,100,200);
 // }
 function draw(){
+    background(220)
+
+    textSize(32)
     
 }

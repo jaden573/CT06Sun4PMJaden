@@ -2,8 +2,9 @@
 // let x = 0
 // let y = 0
 // let speed = 2
+let bgsound
 function preload(){
-    bgsound 
+    bgsound =  
 }
 function setup(){
     createCanvas(600,400)

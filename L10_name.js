@@ -10,7 +10,9 @@ function setup(){
     userinput = createInput;
     userinput.position(width/2 - 80, height - 80)
 }
-
+function draw(){
+    
+}
 
 // function draw(){
 //     background(r,g,b)

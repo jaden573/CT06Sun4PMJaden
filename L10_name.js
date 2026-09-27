@@ -8,7 +8,11 @@ function setup(){
     createCanvas(400,400)
     background(220)
 }
+let countdown;
 function draw(){
     background(r,g,b)
-    setInterval(countdown,1000)
+    setInterval(countdown,1000);
+}
+function countdown(){
+    if(countdown>0
 }

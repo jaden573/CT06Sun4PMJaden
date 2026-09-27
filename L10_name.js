@@ -7,7 +7,7 @@ let countdownID;
 function setup(){
     createCanvas(400,400)
 }
-let countdown;
+
 
 function draw(){
     background(r,g,b)

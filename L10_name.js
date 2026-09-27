@@ -14,5 +14,7 @@ function draw(){
     setInterval(countdown,1000);
 }
 function countdown(){
-    if(countdown>0
+    if(countdown>0){
+        countdownTimer--;
+    }
 }

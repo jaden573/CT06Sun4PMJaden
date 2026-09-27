@@ -22,6 +22,8 @@ function setup(){
 }
 function draw(){
     background(bgcolorpicker.value())
+    rect(100,150,200,90,50)
+
     textSize(24)
     textAlign(CENTER,CENTER)
     text(usertext,width/2,height/2)
@@ -29,9 +31,8 @@ function draw(){
     textSize(12)
     text("Enter name", 50, height-70)
     text("Age", 50, height-45)
-    rect(100,50,200,90,50)
+    
 }
-
 
 function updateText(){
     usertext = this.value()}

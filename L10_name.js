@@ -29,7 +29,7 @@ function draw(){
 function updateText(){
     usertext = this.value()}
 
-    function updateTex(){
+function updateTex(){
     tex = this.value()}
 
 

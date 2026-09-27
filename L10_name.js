@@ -1,9 +1,9 @@
-let x = 0
+let r = 0
 
 
 
 
 function setup(){
     createCanvas(400,400)
-    background(x)
+    background(220)
 }

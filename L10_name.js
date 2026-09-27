@@ -14,7 +14,7 @@ function draw(){
     countdownID = setInterval(countdown,1000);
     textSize(24)
     textAllign(CENTER,CENTER);
-    
+    text(countdownTimer)
 }
 function countdown(){
     if(countdown>0){

@@ -4,7 +4,7 @@ let b = 220
 let countdownTimer = 60
 let countdownID;
 let userinput;
-let usertext
+let usertext = "ENTER TEXT HERE";
 function setup(){
     createCanvas(400,400)
 }

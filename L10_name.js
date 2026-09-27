@@ -10,5 +10,5 @@ function setup(){
 }
 function draw(){
     background(r,g,b)
-    setInterval(countdown,)
+    setInterval(countdown,1000)
 }

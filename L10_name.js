@@ -16,6 +16,9 @@ function draw(){
 function countdown(){
     if(countdown>0){
         countdownTimer--;
+        r = random(0,255)
+        g = random(0,255)
+        b
     }else{
         clearInterval(countdownID)
     }

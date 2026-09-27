@@ -12,7 +12,7 @@ function setup(){
     userinput.position(width/2 - 90, 600)
     userinput.input(updateText);
     inputb = createInput();
-    inputb
+    inputb.position(width/2 - 90, )
 }
 function draw(){
     background(220)

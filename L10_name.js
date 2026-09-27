@@ -24,7 +24,7 @@ function draw(){
     text(tex, width/2, height/2 + 25)
     textSize(12)
     text("Enter name", 50, height-70)
-    text("Age", 50, height-90)
+    text("Age", 50, height-50)
 }
 
 

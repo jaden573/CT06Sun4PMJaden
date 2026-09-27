@@ -12,6 +12,8 @@ let countdown;
 function draw(){
     background(r,g,b)
     countdownID = setInterval(countdown,1000);
+    textSize(24)
+    
 }
 function countdown(){
     if(countdown>0){

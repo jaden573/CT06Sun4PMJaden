@@ -18,6 +18,9 @@ function draw(){
     text(usertext,width/2,height/2)
 }
 
+function updateText(){
+    
+}
 // function draw(){
 //     background(r,g,b)
 //     countdownID = setInterval(countdown,5000);

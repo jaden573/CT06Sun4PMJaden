@@ -9,7 +9,7 @@ let usertext = "userinput";
 let tex = "inputb";
 let bgcolorpicker
 let rectolourpick;
-let text
+let textcolourpick;
 function setup(){
     createCanvas(400,400)
     userinput = createInput();

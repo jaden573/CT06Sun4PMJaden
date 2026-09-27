@@ -18,7 +18,7 @@ function setup(){
     inputb.input(updateTex)
     bgcolorpicker = createColorPicker(220);
     bgcolorpicker.position(width/2 - 90, height - 120)
-
+    
 }
 function draw(){
     background(220)

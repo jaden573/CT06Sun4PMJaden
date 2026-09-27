@@ -17,6 +17,6 @@ function countdown(){
     if(countdown>0){
         countdownTimer--;
     }else{
-        clearInterval
+        clearInterval(countdownID)
     }
 }

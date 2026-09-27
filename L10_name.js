@@ -14,7 +14,7 @@ function draw(){
     background(r,g,b)
     countdownID = setInterval(countdown,5000);
     textSize(24)
-    textAllign(CENTER,CENTER);
+   
     text(countdownTimer,width/2,height/2);
 }
 function countdown(){

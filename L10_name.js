@@ -27,6 +27,7 @@ function setup(){
 }
 function draw(){
     background(bgcolorpicker.value())
+    fill(rectolourpick.value());
     rect(100,150,200,90,50)
     
     textSize(24)

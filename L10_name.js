@@ -19,7 +19,7 @@ function draw(){
 }
 
 function updateText(){
-    
+    usertext = this.value
 }
 // function draw(){
 //     background(r,g,b)

@@ -31,6 +31,7 @@ function updateText(){
 function updateTex(){
     tex = this.value()
     }
+    
 
     
 // function draw(){

@@ -28,7 +28,7 @@ function setup(){
 function draw(){
     background(bgcolorpicker.value())
     rect(100,150,200,90,50)
-    fill()
+    fill(rectolourpick.value())
     textSize(24)
     textAlign(CENTER,CENTER)
     text(usertext,width/2,height/2)

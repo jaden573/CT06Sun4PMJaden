@@ -23,9 +23,7 @@ function draw(){
     textSize(12)
     text("Enter name", 50, height-70)
 }
-function draw(){
-    
-}
+
 
 function updateText(){
     usertext = this.value()

@@ -21,6 +21,7 @@ function setup(){
     bgcolorpicker = createColorPicker(220);
     bgcolorpicker.position(width/2 - 90, height+250)
     rectolourpick = createColorPicker(220)
+    
 }
 function draw(){
     background(bgcolorpicker.value())

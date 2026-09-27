@@ -13,7 +13,7 @@ function draw(){
     background(r,g,b)
     countdownID = setInterval(countdown,1000);
     textSize(24)
-    
+    textAllign(C)
 }
 function countdown(){
     if(countdown>0){

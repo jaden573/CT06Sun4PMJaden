@@ -29,7 +29,7 @@ function draw(){
     textSize(12)
     text("Enter name", 50, height-70)
     text("Age", 50, height-45)
-    rect(100,50,50,150)
+    rect(100,50,200,150)
 }
 
 

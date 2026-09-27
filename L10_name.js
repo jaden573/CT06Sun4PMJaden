@@ -7,6 +7,7 @@ let userinput;
 let inputb;
 let usertext = "userinput";
 let tex = "inputb";
+let bgcolorpicker
 function setup(){
     createCanvas(400,400)
     userinput = createInput();

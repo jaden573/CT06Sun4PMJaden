@@ -13,7 +13,7 @@ function setup(){
     userinput.input(updateText);
     inputb = createInput();
     inputb.position(width/2 - 90, 625)
-    userinput.input(updateText)
+    inputb.input(updateText)
 }
 function draw(){
     background(220)

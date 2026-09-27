@@ -13,7 +13,8 @@ function setup(){
 function draw(){
     background(220)
     textSize(24)
-    textAlign
+    textAlign(CENTER,CENTER)
+    text
 }
 
 // function draw(){

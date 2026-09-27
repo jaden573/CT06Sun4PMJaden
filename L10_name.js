@@ -11,7 +11,7 @@ function setup(){
 let countdown;
 function draw(){
     background(r,g,b)
-    setInterval(countdown,1000);
+    countdownID = setInterval(countdown,1000);
 }
 function countdown(){
     if(countdown>0){

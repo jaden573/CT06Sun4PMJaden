@@ -21,7 +21,7 @@ function setup(){
     
 }
 function draw(){
-    background(220)
+    background(bgcolorpicker.va)
     textSize(24)
     textAlign(CENTER,CENTER)
     text(usertext,width/2,height/2)

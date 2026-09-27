@@ -18,7 +18,7 @@ function countdown(){
         countdownTimer--;
         r = random(0,255)
         g = random(0,255)
-        b
+        b = random(0,255)
     }else{
         clearInterval(countdownID)
     }

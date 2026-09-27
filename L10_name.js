@@ -5,7 +5,8 @@ let countdownTimer = 60
 let countdownID;
 let userinput;
 let inputb;
-let usertext = userinput;
+let usertext = "userinput";
+let tex = "inputb";
 function setup(){
     createCanvas(400,400)
     userinput = createInput();
@@ -26,11 +27,12 @@ function draw(){
 
 
 function updateText(){
-    usertext = this.value()
-    function updateTex(){
-        
+    usertext = this.value()}
+function updateTex(){
+    tex = this.value
     }
-}
+
+    
 // function draw(){
 //     background(r,g,b)
 //     countdownID = setInterval(countdown,5000);

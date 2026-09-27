@@ -10,20 +10,20 @@ function setup(){
 }
 
 
-function draw(){
-    background(r,g,b)
-    countdownID = setInterval(countdown,5000);
-    textSize(24)
+// function draw(){
+//     background(r,g,b)
+//     countdownID = setInterval(countdown,5000);
+//     textSize(24)
    
-    text(countdownTimer,width/2,height/2);
-}
-function countdown(){
-    if(countdown>0){
-        countdownTimer--;
-        r = random(0,255)
-        g = random(0,255)
-        b = random(0,255)
-    }else{
-        clearInterval(countdownID)
-    }
-}
+//     text(countdownTimer,width/2,height/2);
+// }
+// function countdown(){
+//     if(countdown>0){
+//         countdownTimer--;
+//         r = random(0,255)
+//         g = random(0,255)
+//         b = random(0,255)
+//     }else{
+//         clearInterval(countdownID)
+//     }
+// }

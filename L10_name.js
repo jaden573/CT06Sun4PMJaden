@@ -31,7 +31,7 @@ function draw(){
     fill(rectolourpick.value())
     textSize(24)
     textAlign(CENTER,CENTER)
-    textCol
+    fill(textcolourpick.value())
     text(usertext,width/2,height/2)
     text(tex, width/2, height/2 + 25)
     textSize(12)

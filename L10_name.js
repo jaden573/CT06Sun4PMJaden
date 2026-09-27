@@ -1,5 +1,6 @@
-let r = 0
-
+let r = 220
+let g = 220
+let b = 220
 
 
 

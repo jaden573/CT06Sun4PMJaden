@@ -27,6 +27,9 @@ function draw(){
 
 function updateText(){
     usertext = this.value()
+    function updateTex(){
+        
+    }
 }
 // function draw(){
 //     background(r,g,b)

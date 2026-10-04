@@ -11,8 +11,8 @@ function setup(){
     createCanvas(600,600);
 
     storyTemplate = [
-        "The {adj} {noun} decided to {verb} {adjective} at the {place}",
-        "One day, a {adj} {noun} wwanted to (verb} {adjective} in {place}",
+        "The {adj} {noun} decided to {verb} {adjective} at the {place}.",
+        "One day, a {adj} {noun} wwanted to (verb} {adjective} in {place}.",
         "Did you hear about the {adj} {noun} that tried to {verb} {adjective} near {place}"
     ];
 

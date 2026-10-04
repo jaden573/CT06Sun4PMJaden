@@ -37,7 +37,7 @@ function setup(){
     
 }
 function draw(){
-    background("silver")
+    background("black")
     textSize(18)
     textAlign(RIGHT, CENTER)
     text("Enter noun: ", width/2-90, 110);

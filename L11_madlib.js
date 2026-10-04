@@ -25,6 +25,7 @@ function draw(){
     textAlign(RIGHT, CENTER)
     text("Enter noun: ", width/2-90, 110);
     text("Enter verb: ", width/2 - 90, 160)
+    text("Enter adjective")
 }
 function updateText(){
     console.log("Hello, " + nouninput.value())

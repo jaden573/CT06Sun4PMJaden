@@ -1,6 +1,6 @@
 let
 function preload(){
-    createCanvas
+    createCanvas(700,800)
 }
 function setup(){
 

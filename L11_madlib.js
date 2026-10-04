@@ -18,7 +18,7 @@ function draw(){
     background("silver")
     textSize(18)
     textAlign(RIGHT, CENTER)
-    text("give me your name", width/2-15, 110);
+    text("Enter noun: ", width/2-15, 110);
 }
 function updateText(){
     console.log("Hello, " + nouninput.value())

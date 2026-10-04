@@ -16,12 +16,7 @@ function setup(){
         "Did you hear about the {adj} {noun} that tried to {verb} {adj} near {place}."
     ];
 
-    storytext = random(storyTemplate)
-    storytext = storytext.replace("{noun}", "dog");
-    storytext = storytext.replace("{verb}", "shit");
-    storytext = storytext.replace("{adj}", "invis");
-    storytext = storytext.replace("{adverb}", "greedily");
-    storytext = storytext.replace("{place}", "sky");
+
 
     nouninput = createInput();
     nouninput.position (     width/2, 100);

@@ -7,7 +7,7 @@ function setup(){
     createCanvas(700,800)
 
     texinput = createInput();
-    textInput.position = (200,100)
+    texinput.position = (200,100)
 
 
 

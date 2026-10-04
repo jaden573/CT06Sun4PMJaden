@@ -19,7 +19,7 @@ function setup(){
     storytext = random(storyTemplate)
     storytext = storytext.replace("{noun}", "dog");
     storytext = storytext.replace("{verb}", "shit");
-    storytext = storytext.replace("{noun}", "dog");
+    storytext = storytext.replace("{adjective}", "dog");
     nouninput = createInput();
     nouninput.position (     width/2, 100);
     

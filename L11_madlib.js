@@ -24,7 +24,7 @@ function setup(){
     placeput.position(width/2, 300)
 
     aniu = createButton("Generate story");
-    aniu.position(          width/2, 450);
+    aniu.position(          width/2, 350);
     aniu.mousePressed(updateText)
     
 }

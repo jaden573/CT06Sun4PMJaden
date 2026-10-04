@@ -10,7 +10,7 @@ function setup(){
     aniu = createButton("click me");
     aniu.position(          width/2, 150);
 
-    
+    text
 
 
 

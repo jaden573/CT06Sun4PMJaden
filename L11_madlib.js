@@ -47,6 +47,7 @@ function draw(){
     background("black")
     textSize(18)
     textAlign(RIGHT, CENTER)
+    fill("red")
     text("Enter noun: ", width/2-90, 110);
     text("Enter verb: ", width/2 - 90, 160)
     text("Enter adjective: ", width/2 - 90, 210)

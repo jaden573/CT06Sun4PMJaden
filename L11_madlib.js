@@ -1,6 +1,7 @@
 let nouninput;
 let verbput;
-letadjecput;
+let adjecput;
+let adverbput
 let aniu;
 
 function setup(){

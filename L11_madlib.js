@@ -23,6 +23,6 @@ function draw(){
     textAlign(RIGHT, CENTER)
     text("give me your name", width/2-15, 110);
 }
-function updatetex(){
+function updateText(){
     console.log("Hello, " + texinput.value())
 }

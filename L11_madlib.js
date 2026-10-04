@@ -4,7 +4,8 @@ let adjecput;
 let adverbput;
 let placeput;
 let aniu;
-let stroytex
+let storytext;
+let storyTemplate;
 
 function setup(){
     createCanvas(600,600);

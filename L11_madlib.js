@@ -1,4 +1,4 @@
-let
+let texinput
 function preload(){
     
 }

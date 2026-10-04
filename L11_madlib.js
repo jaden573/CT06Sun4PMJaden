@@ -10,7 +10,9 @@ let storyTemplate;
 function setup(){
     createCanvas(600,600);
 
-    storyTemplate = []
+    storyTemplate = [
+        "The {"
+    ]
 
     nouninput = createInput();
     nouninput.position (     width/2, 100);

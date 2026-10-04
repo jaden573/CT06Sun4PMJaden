@@ -12,7 +12,7 @@ function setup(){
 
     storyTemplate = [
         "The {adj} {noun} decided to {verb} {adjective} at the {place}",
-        "One day, a "
+        "One day, a {adj} {noun} wwanted to "
     ]
 
     nouninput = createInput();

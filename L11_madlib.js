@@ -1,6 +1,6 @@
 let
 function preload(){
-
+    createCanvas
 }
 function setup(){
 

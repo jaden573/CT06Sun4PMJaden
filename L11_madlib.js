@@ -55,7 +55,7 @@ function draw(){
     text("Enter place: ", width/2 - 90, 310)
 
     fill("green");
-    textSize()
+    textSize(10);
     text(storytext, width/2, height/2);
 }
 function updateText(){

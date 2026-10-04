@@ -17,7 +17,7 @@ function setup(){
     ];
 
     storytext = random(storyTemplate)
-    storytext
+    storytext = storytext.replace
 
     nouninput = createInput();
     nouninput.position (     width/2, 100);

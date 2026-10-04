@@ -39,5 +39,5 @@ function draw(){
     text("Enter place: ", width/2 - 90, 310)
 }
 function updateText(){
-    console.log("Hello, " + nouninput.value())
+    console.log("The " + no)
 }

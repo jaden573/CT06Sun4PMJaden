@@ -1,9 +1,9 @@
 let
 function preload(){
-    createCanvas(700,800)
+    
 }
 function setup(){
-
+    createCanvas(700,800)
 }
 function draw(){
     background("brown")

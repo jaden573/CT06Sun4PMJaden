@@ -20,7 +20,8 @@ function setup(){
     adverbput = createInput();
     adverbput.position(width/2, 250)
 
-    placeput = createInput
+    placeput = createInput();
+    placeput.position
     aniu = createButton("click me");
     aniu.position(          width/2, 450);
     aniu.mousePressed(updateText)

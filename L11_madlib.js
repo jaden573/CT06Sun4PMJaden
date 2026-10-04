@@ -61,5 +61,5 @@ function updateText(){
     storytext = storytext.replace("{verb}", verbput.value());
     storytext = storytext.replace("{adj}", adjecput.value());
     storytext = storytext.replace("{adverb}", adverbput.value());
-    storytext = storytext.replace("{place}", );
+    storytext = storytext.replace("{place}", placeput.value());
 }

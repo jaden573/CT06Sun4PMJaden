@@ -46,7 +46,8 @@ function draw(){
     text("Enter adverb: ", width/2 - 90, 260)
     text("Enter place: ", width/2 - 90, 310)
 
-    File()
+    fill("red");
+    fill
 }
 function updateText(){
     console.log("The " + adjecput.value() + " " + nouninput.value() + " " +  verbput.value() + " " + adverbput.value() + " in the " + placeput.value())

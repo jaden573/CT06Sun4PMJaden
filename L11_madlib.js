@@ -22,7 +22,7 @@ function setup(){
     storytext = storytext.replace("{adjective}", "invis");
     storytext = storytext.replace("{adverb}", "greedily");
     storytext = storytext.replace("{place}", "sky");
-    
+
     nouninput = createInput();
     nouninput.position (     width/2, 100);
     
@@ -53,7 +53,7 @@ function draw(){
     text("Enter adverb: ", width/2 - 90, 260)
     text("Enter place: ", width/2 - 90, 310)
 
-    fill("red");
+    fill("green");
     fill(storytext, width/2, height/2);
 }
 function updateText(){

@@ -14,6 +14,7 @@ function setup(){
     verbput = createInput();
     verbput.position( width/2, 150)
 
+    adjecput    
     aniu = createButton("click me");
     aniu.position(          width/2, 450);
     aniu.mousePressed(updateText)

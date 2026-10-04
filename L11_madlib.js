@@ -56,7 +56,7 @@ function draw(){
 
     fill("green");
     textSize(13);
-    text(storytext, width/2, 450);
+    text(storytext, width/2 + 75, 450);
 }
 function updateText(){
     console.log("The " + adjecput.value() + " " + nouninput.value() + " " +  verbput.value() + " " + adverbput.value() + " in the " + placeput.value())

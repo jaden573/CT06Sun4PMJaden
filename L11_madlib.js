@@ -21,7 +21,7 @@ function draw(){
     background("silver")
     textSize(18)
     textAllign(RIGHT, CENTER)
-    
+    text("give me your name", width/2-15)
 }
 function updatetex(){
 

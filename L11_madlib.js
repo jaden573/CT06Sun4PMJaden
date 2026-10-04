@@ -60,6 +60,6 @@ function updateText(){
     storytext = storytext.replace("{noun}", nouninput.value());
     storytext = storytext.replace("{verb}", verbput.value());
     storytext = storytext.replace("{adj}", adjecput.value());
-    storytext = storytext.replace("{adverb}", );
-    storytext = storytext.replace("{place}", "sky");
+    storytext = storytext.replace("{adverb}", adverbput.value());
+    storytext = storytext.replace("{place}", );
 }

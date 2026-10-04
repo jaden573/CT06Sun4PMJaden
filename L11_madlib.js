@@ -8,7 +8,7 @@ function setup(){
     texinput.position (     width/2, 100);
     
     aniu = createButton("click me");
-    aniu.position(width/2, 150);
+    aniu.position(          width/2, 150);
 
 
 

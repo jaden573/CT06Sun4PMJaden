@@ -27,7 +27,7 @@ function draw(){
     text("Enter verb: ", width/2 - 90, 160)
     text("Enter adjective: ", width/2 - 90, 210)
     text("Enter adverb: ", wdith/2 - 90, 260)
-    text("Enter ")
+    text("Enter place: ")
 }
 function updateText(){
     console.log("Hello, " + nouninput.value())

@@ -7,7 +7,7 @@ function setup(){
     nouninput = createInput();
     nouninput.position (     width/2, 100);
     
-
+    
 
     aniu = createButton("click me");
     aniu.position(          width/2, 450);

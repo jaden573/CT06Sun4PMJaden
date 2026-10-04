@@ -40,7 +40,7 @@ function draw(){
 }
 function updateText(){
     console.log("The " + adjecput.value() + nouninput.value() +  verbput.value() + adverbput.value() + "in the " + placeput.value())
-    console.log
+    
 
 
 

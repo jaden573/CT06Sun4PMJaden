@@ -4,6 +4,7 @@ let adjecput;
 let adverbput;
 let placeput;
 let aniu;
+let stroytex
 
 function setup(){
     createCanvas(600,600);

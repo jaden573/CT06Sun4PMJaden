@@ -2,7 +2,7 @@ let texinput;
 let aniu;
 
 function setup(){
-    createCanvas(700,800);
+    createCanvas(600,600);
 
     texinput = createInput();
     texinput.position (     width/2, 100);
@@ -10,7 +10,7 @@ function setup(){
     aniu = createButton("click me");
     aniu.position(          width/2, 150);
 
-
+    
 
 
 

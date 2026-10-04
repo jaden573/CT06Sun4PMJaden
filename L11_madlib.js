@@ -14,7 +14,7 @@ function setup(){
         "The {adj} {noun} decided to {verb} {adjective} at the {place}",
         "One day, a {adj} {noun} wwanted to (verb} {adjective} in {place}",
         "Did you hear about the {adj} {noun} that tried to {verb} {adjective} near {place}"
-    ]
+    ];
 
     nouninput = createInput();
     nouninput.position (     width/2, 100);

@@ -4,7 +4,7 @@ let adjecput;
 let adverbput;
 let placeput;
 let aniu;
-let storytext;
+let storytext = "";
 let storyTemplate;
 
 function setup(){

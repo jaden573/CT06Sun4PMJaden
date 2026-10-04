@@ -11,7 +11,7 @@ function setup(){
     createCanvas(600,600);
 
     storyTemplate = [
-        "The {"
+        "The {adj) "
     ]
 
     nouninput = createInput();

@@ -22,8 +22,8 @@ function setup(){
 
     placeput = createInput();
     placeput.position(width/2, 300)
-    
-    aniu = createButton("click me");
+
+    aniu = createButton("Generate story");
     aniu.position(          width/2, 450);
     aniu.mousePressed(updateText)
     

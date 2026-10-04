@@ -18,7 +18,8 @@ function setup(){
 
 }
 function draw(){
-    background("brown")
+    background("silver")
+    et
 }
 function updatetex(){
 

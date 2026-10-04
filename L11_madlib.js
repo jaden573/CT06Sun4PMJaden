@@ -20,6 +20,7 @@ function setup(){
 function draw(){
     background("silver")
     textSize(18)
+    textAllign(RIGHT, CENTER)
     
 }
 function updatetex(){

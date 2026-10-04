@@ -21,5 +21,5 @@ function draw(){
     text("give me your name", width/2-15, 110);
 }
 function updateText(){
-    console.log("Hello, " + texinput.value())
+    console.log("Hello, " + nouninput.value())
 }

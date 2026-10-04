@@ -11,7 +11,7 @@ function setup(){
     createCanvas(600,600);
 
     storyTemplate = [
-        "The {adj} {noun} decided to {"
+        "The {adj} {noun} decided to {verb} {adjective} at the {place}"
     ]
 
     nouninput = createInput();

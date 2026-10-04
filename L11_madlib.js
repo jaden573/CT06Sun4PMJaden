@@ -1,11 +1,11 @@
-let texinput;
+let nouninput;
 let aniu;
 
 function setup(){
     createCanvas(600,600);
 
-    texinput = createInput();
-    texinput.position (     width/2, 100);
+    nouninput = createInput();
+    nouninput.position (     width/2, 100);
     
 
 

@@ -11,6 +11,7 @@ function setup(){
     nouninput = createInput();
     nouninput.position (     width/2, 100);
     
+    verbput = createInput();
     
 
     aniu = createButton("click me");

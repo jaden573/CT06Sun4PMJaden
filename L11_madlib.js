@@ -20,7 +20,7 @@ function setup(){
     storytext = storytext.replace("{noun}", "dog");
     storytext = storytext.replace("{verb}", "shit");
     storytext = storytext.replace("{adjective}", "greedily");
-    storytext = storytext.replace("{adverb}", "dog");
+    storytext = storytext.replace("{adverb}", "");
     nouninput = createInput();
     nouninput.position (     width/2, 100);
     

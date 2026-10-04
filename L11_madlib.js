@@ -6,7 +6,7 @@ function preload(){
 function setup(){
     createCanvas(700,800)
 
-    tex 
+    texinput = createInput
 
 
 

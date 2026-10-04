@@ -54,7 +54,7 @@ function draw(){
     text(storytext, width/2 + 75, 450);
 }
 function updateText(){
-    // console.log("The " + adjecput.value() + " " + nouninput.value() + " " +  verbput.value() + " " + adverbput.value() + " in the " + placeput.value())
+    console.log("The " + adjecput.value() + " " + nouninput.value() + " " +  verbput.value() + " " + adverbput.value() + " in the " + placeput.value())
     
     storytext = random(storyTemplate)
     storytext = storytext.replace("{noun}", nouninput.value());

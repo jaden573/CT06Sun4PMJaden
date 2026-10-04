@@ -39,5 +39,5 @@ function draw(){
     text("Enter place: ", width/2 - 90, 310)
 }
 function updateText(){
-    console.log("The " + adjecput.value() + nouninput.value() +  verbput.value()) + adverbput.value() + "in the "
+    console.log("The " + adjecput.value() + nouninput.value() +  verbput.value()) + adverbput.value() + "in the " + placeput.value
 }

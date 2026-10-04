@@ -19,7 +19,7 @@ function setup(){
     storytext = random(storyTemplate)
     storytext = storytext.replace("{noun}", "dog");
     storytext = storytext.replace("{verb}", "shit");
-    storytext = storytext.replace("{adjective}", "invis");
+    storytext = storytext.replace("{adj}", "invis");
     storytext = storytext.replace("{adverb}", "greedily");
     storytext = storytext.replace("{place}", "sky");
 

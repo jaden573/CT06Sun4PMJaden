@@ -8,8 +8,8 @@ function setup(){
 
     texinput = createInput();
     texinput.position = (width/2, 100)
-    aniu = createButton("click me")
-    aniu.position()
+    aniu = createButton("click me");
+    aniu.position(width/2, 100);
 
 
 

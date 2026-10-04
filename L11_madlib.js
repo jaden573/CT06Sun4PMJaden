@@ -2,7 +2,7 @@ let nouninput;
 let verbput;
 let adjecput;
 let adverbput;
-let pla
+let placeput;
 let aniu;
 
 function setup(){
@@ -11,7 +11,7 @@ function setup(){
     nouninput = createInput();
     nouninput.position (     width/2, 100);
     
-
+    
 
     aniu = createButton("click me");
     aniu.position(          width/2, 450);

@@ -19,7 +19,8 @@ function setup(){
 }
 function draw(){
     background("silver")
-    et
+    textSize(18)
+    
 }
 function updatetex(){
 

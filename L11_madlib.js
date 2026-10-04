@@ -8,16 +8,11 @@ function setup(){
     texinput.position (     width/2, 100);
     
 
-    
+
     aniu = createButton("click me");
     aniu.position(          width/2, 450);
     aniu.mousePressed(updateText)
-    textinput2
-
-
-
-
-
+    
 }
 function draw(){
     background("silver")

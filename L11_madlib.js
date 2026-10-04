@@ -1,4 +1,5 @@
-let texinput
+let texinput;
+let aniu;
 function preload(){
     
 }

@@ -8,7 +8,7 @@ function setup(){
 
     texinput = createInput();
     texinput.position = (200,100)
-    
+    aniu = createButton
 
 
 

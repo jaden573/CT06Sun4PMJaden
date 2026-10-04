@@ -57,7 +57,7 @@ function updateText(){
     // console.log("The " + adjecput.value() + " " + nouninput.value() + " " +  verbput.value() + " " + adverbput.value() + " in the " + placeput.value())
     
     storytext = random(storyTemplate)
-    storytext = storytext.replace("{noun}", "dog");
+    storytext = storytext.replace("{noun}", nouninput.value());
     storytext = storytext.replace("{verb}", "shit");
     storytext = storytext.replace("{adj}", "invis");
     storytext = storytext.replace("{adverb}", "greedily");

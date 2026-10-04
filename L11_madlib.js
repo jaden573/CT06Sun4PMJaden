@@ -27,3 +27,6 @@ function setup(){
 function draw(){
     background("brown")
 }
+function updatetex(){
+    
+}

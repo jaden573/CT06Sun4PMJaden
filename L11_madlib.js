@@ -16,8 +16,8 @@ function setup(){
         "Did you hear about the {adj} {noun} that tried to {verb} {adjective} near {place}."
     ];
 
+    storytext = random()
 
-    
     nouninput = createInput();
     nouninput.position (     width/2, 100);
     

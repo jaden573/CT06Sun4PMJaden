@@ -37,5 +37,7 @@ function getCorrectLetters(){
     let correctletter = ""
     guess = guess.toLowerCase()
     word = word.toLowerCase()
-    for(let i = 0;i<gas.length; i++)
+    for(let i = 0;i<gas.length; i++){
+        
+    }
 }

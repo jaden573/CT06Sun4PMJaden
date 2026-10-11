@@ -1,8 +1,9 @@
-let button
-let inputfield
-let gas = ""
+let button;
+let inputfield;
+let gas = "";
 let word = ["bingbing","lingling","xingxing","chineseF9","crystalmethcartel"]
 let randumb = ""
+let hint
 
 function setup(){
     createCanvas(600,400)

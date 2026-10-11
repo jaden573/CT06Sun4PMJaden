@@ -44,5 +44,5 @@ function getCorrectLetters(gas, word){
             correctLetter += guess[i].toUpperCase() + " ";
         }
     }
-    return correctLetter
+    return correctletter
 }

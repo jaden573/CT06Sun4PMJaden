@@ -19,5 +19,5 @@ function draw(){
 
 }
 function updateText(){
-    
+    inputfield.value()
 }

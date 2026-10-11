@@ -6,5 +6,5 @@ function setup(){
     inputfield = createInput();
     inputfield.position(height/2, 300)
 
-    button = butto
+    button = createButton
 }

@@ -3,7 +3,7 @@ let inputfield
 let gas = ""
 function setup(){
     createCanvas(600,400)
-    background(220)
+    
 
     inputfield = createInput();
     inputfield.position(widtht/2, 300)

@@ -12,6 +12,6 @@ function setup(){
 }
 function draw(){
     background(220)
-    textSize = 18
-    
+    textSize(18)
+    text
 }

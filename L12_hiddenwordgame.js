@@ -26,7 +26,7 @@ function draw(){
     textAlign("CENTER")
     text(gas, width/2, 300)
     text(hint, width/2, 50)
-
+    
 }
 function updateText(){
     gas = inputfield.value()
@@ -38,6 +38,6 @@ function getCorrectLetters(){
     guess = guess.toLowerCase()
     word = word.toLowerCase()
     for(let i = 0;i<gas.length; i++){
-        
+
     }
 }

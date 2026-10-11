@@ -6,7 +6,7 @@ let randumb = ""
 
 function setup(){
     createCanvas(600,400)
-    randumb = radnom
+    randumb = random(word)
 
     inputfield = createInput();
     inputfield.position(width/2, 100)

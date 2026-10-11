@@ -1,7 +1,7 @@
 let button
 let inputfield
 let gas = ""
-let word = ["bingbing",]
+let word = ["bingbing","lingling",]
 function setup(){
     createCanvas(600,400)
     

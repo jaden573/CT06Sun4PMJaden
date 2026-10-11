@@ -27,7 +27,7 @@ function draw(){
     text("GUESS THE HIDDEN WORD", width/2, 30)
     text(gas, width/2, 300)
     text(hint, width/2, 50)
-    text("Attempts: 0")
+    text("Attempts: 0", width/2, 130)
 }
 function updateText(){
     gas = inputfield.value()

@@ -28,7 +28,7 @@ function draw(){
     text(gas, width/2, 300)
     text(hint, width/2, 50)
     text("Attempts: 0", width/2, 130)
-    
+    text("Correct letters")
 }
 function updateText(){
     gas = inputfield.value()

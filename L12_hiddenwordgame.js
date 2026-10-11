@@ -1,2 +1,5 @@
 let button
-let input
+let inputfield
+function setup(){
+    
+}

@@ -3,5 +3,6 @@ let inputfield
 function setup(){
     createCanvas(600,400)
 
-    inputfield = createInput()
+    inputfield = createInput();
+    inputfield.position()
 }

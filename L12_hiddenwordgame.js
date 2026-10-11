@@ -35,11 +35,11 @@ function updateText(){
     correctletter = getCorrectLetters(gas,randumb)
 }
 
-function getCorrectLetters(gas, ){
+function getCorrectLetters(gas, word){
     let correctletter = ""
     guess = guess.toLowerCase()
     word = word.toLowerCase()
     for(let i = 0;i<gas.length; i++){
-
+        
     }
 }

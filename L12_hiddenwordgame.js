@@ -41,7 +41,8 @@ function getCorrectLetters(gas, word){
     word = word.toLowerCase()
     for(let i = 0;i<gas.length; i++){
         if(word.includes(gas[i]) && !correctletter.includes(guess[i].toUpperCase())){
-            correctLetter += guess[i].toUpperCase() + "";
+            correctLetter += guess[i].toUpperCase() + " ";
         }
     }
+    return correctLetter
 }

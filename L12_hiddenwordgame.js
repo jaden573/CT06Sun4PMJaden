@@ -16,9 +16,9 @@ function draw(){
     textSize(18)
     fill("black")
     textAllign("CENTER")
-    text("")
+    text(gas)
 
 }
 function updateText(){
-    gasinputfield.value()
+    gas = inputfield.value()
 }

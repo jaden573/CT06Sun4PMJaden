@@ -9,14 +9,14 @@ function setup(){
     inputfield.position(width/2, 300)
 
     button = createButton("GUESS")
-    button.position(height/2 + 50, 300)
+    button.position(height/2 + 150, 300)
     button.mousePressed(updateText)
 }
 function draw(){
     background(220)
     textSize(18)
     fill("black")
-    textAllign("CENTER")
+    textAlign("CENTER")
     text(gas)
 
 }

@@ -17,7 +17,7 @@ function draw(){
     textSize(18)
     fill("black")
     textAlign("CENTER")
-    text(gas, )
+    text(gas, width/2, 100)
 
 }
 function updateText(){

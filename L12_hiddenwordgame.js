@@ -18,3 +18,6 @@ function draw(){
     text("")
 
 }
+function updateText(){
+    
+}

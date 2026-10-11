@@ -30,5 +30,5 @@ function draw(){
 }
 function updateText(){
     gas = inputfield.value()
-    correctletter = getCorrectLetters()
+    correctletter = getCorrectLetters(gas,)
 }

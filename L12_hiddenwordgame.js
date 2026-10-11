@@ -8,7 +8,7 @@ let hint;
 function setup(){
     createCanvas(600,400)
     randumb = random(word)
-    hint = 
+    hint = randumb.charAt
     inputfield = createInput();
     inputfield.position(width/2, 100)
 

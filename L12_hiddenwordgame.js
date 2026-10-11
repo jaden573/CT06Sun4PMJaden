@@ -9,6 +9,7 @@ function setup(){
     createCanvas(600,400)
     randumb = random(word)
     hint = randumb.charAt(0).toUpperCase();
+    for ( let i = 1; i<randumb.length; i++)
     inputfield = createInput();
     inputfield.position(width/2, 100)
 

@@ -9,7 +9,7 @@ function setup(){
     inputfield.position(width/2, 300)
 
     button = createButton("GUESS")
-    button.position(height/2 + 150, 300)
+    button.position(height/2 + 400, 300)
     button.mousePressed(updateText)
 }
 function draw(){

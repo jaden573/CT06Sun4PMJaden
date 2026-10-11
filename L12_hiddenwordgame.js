@@ -13,10 +13,10 @@ function setup(){
         hint = hint + "_ "
     }
     inputfield = createInput();
-    inputfield.position(width/2, 100)
+    inputfield.position(width/2, 200)
 
     button = createButton("GUESS")
-    button.position(height/2 + 300, 100)
+    button.position(height/2 + 300, 200)
     button.mousePressed(updateText)
 }
 function draw(){

@@ -1,5 +1,6 @@
 let button
 let inputfield
+let 
 function setup(){
     createCanvas(600,400)
 

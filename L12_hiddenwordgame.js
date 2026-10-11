@@ -6,7 +6,7 @@ function setup(){
     inputfield = createInput();
     inputfield.position(widtht/2, 300)
 
-    button = createButton()
+    button = createButton("GUESS")
     button.position(height/2 + 50, 300)
     button.mousePressed(updateText)
 }
@@ -16,5 +16,5 @@ function draw(){
     fill("black")
     textAllign("CENTER")
     text()
-
+    
 }

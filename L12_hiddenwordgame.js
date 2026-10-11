@@ -6,10 +6,10 @@ function setup(){
     
 
     inputfield = createInput();
-    inputfield.position(width/2, 300)
+    inputfield.position(width/2, 100)
 
     button = createButton("GUESS")
-    button.position(height/2 + 300, 300)
+    button.position(height/2 + 300, 100)
     button.mousePressed(updateText)
 }
 function draw(){

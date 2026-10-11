@@ -11,7 +11,7 @@ function setup(){
     button.mousePressed(updateText)
 }
 function draw(){
-    background("")
+    background("grey")
     textSize = 18
 
 }

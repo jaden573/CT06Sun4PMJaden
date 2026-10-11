@@ -24,7 +24,7 @@ function draw(){
     textSize(18)
     fill("black")
     textAlign("CENTER")
-    text("GUESS THE HIDDE   ")
+    text("GUESS THE HIDDEN WORD")
     text(gas, width/2, 300)
     text(hint, width/2, 50)
 

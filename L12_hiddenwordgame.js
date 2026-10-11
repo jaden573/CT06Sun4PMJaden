@@ -10,3 +10,6 @@ function setup(){
     button.position(height/2 + 50, 300)
     button.mousePressed(updateText)
 }
+function draw(){
+    
+}

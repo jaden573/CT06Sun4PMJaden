@@ -36,5 +36,6 @@ function updateText(){
 function getCorrectLetters(){
     let correctletter = ""
     guess = guess.toLowerCase()
-    word = word
+    word = word.toLowerCase()
+    for(let i = 0;i<gas.length; i++)
 }

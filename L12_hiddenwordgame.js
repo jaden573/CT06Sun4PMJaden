@@ -8,5 +8,5 @@ function setup(){
 
     button = createButton()
     button.position(height/2 + 50, 300)
-    button.mousePressed
+    button.mousePressed(updateText)
 }

@@ -2,7 +2,7 @@ let button
 let inputfield
 let gas = ""
 let word = ["bingbing","lingling","xingxing","chineseF9","crystalmethcartel"]
-
+let randumb = ""
 
 function setup(){
     createCanvas(600,400)

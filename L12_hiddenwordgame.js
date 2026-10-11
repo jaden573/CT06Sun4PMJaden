@@ -25,6 +25,7 @@ function draw(){
     fill("black")
     textAlign("CENTER")
     text(gas, width/2, 300)
+    
 
 }
 function updateText(){

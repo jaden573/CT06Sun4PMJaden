@@ -14,4 +14,7 @@ function draw(){
     background(220)
     textSize(18)
     fill("black")
+    
+
+
 }

@@ -4,7 +4,7 @@ let gas = "";
 let word = ["bingbing","lingling","xingxing","chineseF9","crystalmethcartel"];
 let randumb = "";
 let hint;
-let correctletter = ""
+let correctletter = "";
 function setup(){
     createCanvas(600,400)
     randumb = random(word)

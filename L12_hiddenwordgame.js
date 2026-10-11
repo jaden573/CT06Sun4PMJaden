@@ -7,5 +7,6 @@ function setup(){
     inputfield.position(widtht/2, 300)
 
     button = createButton()
-    button.position(height/2, 300)
+    button.position(height/2 + 50, 300)
+    
 }

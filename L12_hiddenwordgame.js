@@ -1,14 +1,14 @@
 let button;
 let inputfield;
 let gas = "";
-let word = ["bingbing","lingling","xingxing","chineseF9","crystalmethcartel"]
-let randumb = ""
-let hint
+let word = ["bingbing","lingling","xingxing","chineseF9","crystalmethcartel"];
+let randumb = "";
+let hint;
 
 function setup(){
     createCanvas(600,400)
     randumb = random(word)
-
+    hint = 
     inputfield = createInput();
     inputfield.position(width/2, 100)
 

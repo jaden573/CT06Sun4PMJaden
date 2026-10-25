@@ -6,7 +6,7 @@ let score = 0;
 let streak = 0;
 let maxStreak = 0;
 let message = "";
-let words = ["hello", "butterfly", "keithisgay", "allahuakbar", ""]
+let words = ["hello", "butterfly", "keithisgay", "allahuakbar", "johnnysins"]
 
 function setup(){
     createCanvas(600,400)

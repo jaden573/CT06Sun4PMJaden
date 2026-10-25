@@ -20,12 +20,12 @@ function setup(){
     putfield.style('font-size', "16px")
 
     buttom = createButton("display")
-    buttom.position(width/2, 200)
+    buttom.position(width/2, 175)
     buttom.size(100,30)
     putfield.style('font-size', "16px")
 
     rescrambleButton = createButton("Rescramble")
-    rescrambleButton.position(200,200)
+    rescrambleButton.position(200,175)
     rescrambleButton.size(100,30)
     rescrambleButton.style('font-size', "16px")
 
@@ -62,5 +62,5 @@ function rescrambleWord(){
 }
 
 function checkAns(){
-    
+
 }

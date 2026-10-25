@@ -1,7 +1,7 @@
 let putfield
 let buttom
 let displaytext
-let currentword, scrambleWord, 
+let currentword, scrambleWord, input, rescarmble 
 
 function setup(){
     createCanvas(600,400)

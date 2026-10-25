@@ -56,3 +56,7 @@ function draw(){
 function displayText(){
     displaytext = putfield.value()
 }
+
+function rescrambleWord(){
+    
+}

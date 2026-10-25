@@ -6,5 +6,6 @@ function setup(){
     putfield = createInput()
     putfield.position(300,150)
     putfield.size(200,40)
-    
+
+    buttom = create
 }

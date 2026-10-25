@@ -69,6 +69,7 @@ function displayText(){
 }
 
 function rescrambleWord(){
+    curre
     scrambleWord = shuffleWord(currentword);
 }
 

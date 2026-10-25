@@ -17,6 +17,10 @@ function setup(){
     button.mousePressed(displaytext)
 }
 
+function displaytext(){
+    
+}
+
 function draw(){
     textSize(20)
     fill("BLACK")

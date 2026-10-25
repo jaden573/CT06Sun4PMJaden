@@ -22,7 +22,7 @@ function setup(){
     putfield.style('font-size', "16px")
 
     rescrambleButton = createButton("Rescramble")
-    res
+    rescrambleButton.position()
 
     buttom.mousePressed(displayText)
 }

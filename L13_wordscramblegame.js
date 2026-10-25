@@ -60,6 +60,7 @@ function shuffleWord(word){
         let j = floor(random(i+1));
         [arr[i],arr[j]] = [arr[j],arr[i]]
     }
+    return arr.join()
 }
 
 function displayText(){

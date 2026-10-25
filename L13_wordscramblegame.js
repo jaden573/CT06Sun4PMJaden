@@ -11,3 +11,7 @@ function setup(){
     buttom.position(width/2, 200)
     buttom.size(100,30)
 }
+
+function draw(){
+    
+}

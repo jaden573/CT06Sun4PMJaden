@@ -3,7 +3,8 @@ let buttom
 let displaytext
 let currentword, scrambleWord, input, rescrambleButton, submitButton;
 let score = 0
-let 
+let streak = 0
+
 
 function setup(){
     createCanvas(600,400)

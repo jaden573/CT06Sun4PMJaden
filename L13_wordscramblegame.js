@@ -11,7 +11,7 @@ function setup(){
     createCanvas(600,400)
     background(220)
 
-    
+    currentword = random(words)
 
     putfield = createInput("Enter text")
     putfield.position(250,150)

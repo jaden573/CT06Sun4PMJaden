@@ -51,6 +51,7 @@ function draw(){
     text("random word: ", width/2, 200);
     text("Score: ", width/2, 225);
     text("Streak: " + "(Max: )", width/2, 250);
+    text(message, width/2, 275)
 }
 
 function displayText(){

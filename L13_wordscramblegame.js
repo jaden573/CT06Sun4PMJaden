@@ -2,12 +2,14 @@ let putfield;
 let buttom;
 let displaytext;
 let currentword, scrambleWord, input, rescrambleButton, submitButton;
-
+let winsound, losesound, rescramblesound;
 let score = 0;
 let streak = 0;
 let maxStreak = 0;
 let message = "";
 let words = ["hello", "butterfly", "keithisgay", "allahuakbar", "johnnysins"]
+
+
 
 function setup(){
     createCanvas(600,400)

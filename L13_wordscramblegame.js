@@ -13,7 +13,7 @@ function setup(){
     background(220)
 
     currentword = random(words)
-    
+    scrambleWord = 
 
     putfield = createInput("Enter text")
     putfield.position(250,150)

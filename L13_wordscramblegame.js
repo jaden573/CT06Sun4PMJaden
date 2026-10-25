@@ -7,5 +7,5 @@ function setup(){
     putfield.position(300,150)
     putfield.size(200,40)
 
-    buttom = createButton()
+    buttom = createButton("dis")
 }

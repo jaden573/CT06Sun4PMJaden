@@ -23,12 +23,12 @@ function setup(){
 
     rescrambleButton = createButton("Rescramble")
     rescrambleButton.position(200,200)
-    rescrambleButton.size(100,30)
+    rescrambleButton.size(90,30)
     rescrambleButton.style('font-size', "16px")
 
     submitButton = createButton("Submit")
     submitButton.position(400,200)
-    submitButton.size(100,30)
+    submitButton.size(90,30)
     submitButton.style('font-size', "16px")
 
 

@@ -12,13 +12,13 @@ function setup(){
     background(220)
 
     putfield = createInput("Enter text")
-    putfield.position(300,150)
+    putfield.position(250,150)
     putfield.size(200,40)
     putfield.style('font-size', "16px")
 
     buttom = createButton("display")
     buttom.position(width/2, 200)
-    buttom.size(100,30)
+    buttom.size(900,30)
     putfield.style('font-size', "16px")
 
     rescrambleButton = createButton("Rescramble")

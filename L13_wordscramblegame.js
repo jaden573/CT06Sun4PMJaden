@@ -11,6 +11,8 @@ function setup(){
     createCanvas(600,400)
     background(220)
 
+    
+
     putfield = createInput("Enter text")
     putfield.position(250,150)
     putfield.size(200,40)

@@ -8,5 +8,5 @@ function setup(){
     putfield.size(200,40)
 
     buttom = createButton("display")
-    
+    buttom.position(width/2, )
 }

@@ -21,7 +21,7 @@ function setup(){
     putfield.style('font-size', "16px")
 
     buttom = createButton("display")
-    buttom.position(width/2, 175)
+    buttom.position(width/2, 200)
     buttom.size(100,30)
     putfield.style('font-size', "16px")
 

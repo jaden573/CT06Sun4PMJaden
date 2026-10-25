@@ -18,7 +18,7 @@ function setup(){
 }
 
 function displaytext(){
-    
+    displaytext = putfield.value()
 }
 
 function draw(){

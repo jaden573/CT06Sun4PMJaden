@@ -13,7 +13,7 @@ function setup(){
     background(220)
 
     currentword = random(words)
-    scrambleWord = 
+    scrambleWord = shuffleWord(currentword);
 
     putfield = createInput("Enter text")
     putfield.position(250,150)
@@ -69,7 +69,7 @@ function displayText(){
 }
 
 function rescrambleWord(){
-    scrambleWord = shuffleWord(currentword);
+    
     
 }
 

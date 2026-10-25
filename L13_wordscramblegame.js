@@ -76,7 +76,7 @@ function displayText(){
 }
 
 function rescrambleWord(){
-    rescramblesound.play
+    rescramblesound.play();
     scrambleWord = shuffleWord(currentword);
 }
 

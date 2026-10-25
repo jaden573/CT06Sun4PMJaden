@@ -81,5 +81,7 @@ function checkAns(){
         if(streak > maxStreak){
             maxStreak = streak
         }
+        message = "correct"
+        
     }
 }

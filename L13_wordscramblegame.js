@@ -13,6 +13,8 @@ function setup(){
     buttom.position(width/2, 200)
     buttom.size(100,30)
     putfield.style('font-size', "16px")
+
+    button.mousePressed(displaytext)
 }
 
 function draw(){

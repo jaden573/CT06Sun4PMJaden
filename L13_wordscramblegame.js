@@ -7,7 +7,7 @@ function setup(){
     putfield = createInput("Enter text")
     putfield.position(300,150)
     putfield.size(200,40)
-    InputDeviceInfo.style('font-size', "16px")
+    putfield.style('font-size', "16px")
 
     buttom = createButton("display")
     buttom.position(width/2, 200)

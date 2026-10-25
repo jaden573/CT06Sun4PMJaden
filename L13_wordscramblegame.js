@@ -43,7 +43,7 @@ function draw(){
     fill("BLACK")
     textAlign("CENTER")
     text(displaytext,300,250)
-    text("Word scramble game", 100, )
+    text("Word scramble game", width)
 }
 
 function displayText(){

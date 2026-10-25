@@ -25,4 +25,5 @@ function draw(){
     textSize(20)
     fill("BLACK")
     textAlign("CENTER")
+    text(displaytext)
 }

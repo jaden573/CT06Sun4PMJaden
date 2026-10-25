@@ -1,5 +1,6 @@
 let putfield
 let buttom
+let displaytext
 
 function setup(){
     createCanvas(600,400)

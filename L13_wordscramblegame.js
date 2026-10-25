@@ -9,7 +9,9 @@ let maxStreak = 0;
 let message = "";
 let words = ["hello", "butterfly", "keithisgay", "allahuakbar", "johnnysins"]
 
-
+function preload(){
+    winsound = loadSound()
+}
 
 function setup(){
     createCanvas(600,400)

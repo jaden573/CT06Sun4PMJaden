@@ -76,6 +76,10 @@ function rescrambleWord(){
 function checkAns(){
     let answer = input.value().trim().toUpperCase();
     if(answer === currentWord){
-        score++
+        score++;
+        streak++;
+        if(streak > maxStreak){
+            
+        }
     }
 }

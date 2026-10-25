@@ -48,7 +48,7 @@ function draw(){
     text("Word scramble game", width/2, 100)
     text("random word: ", width/2, 150)
     text("Score: ", width/2, 400)
-    text("Streak: " + "Max: ")
+    text("Streak: " + "(Max: )", )
 }
 
 function displayText(){

@@ -10,7 +10,7 @@ let message = "";
 let words = ["hello", "butterfly", "keithisgay", "allahuakbar", "johnnysins"]
 
 function preload(){
-    winsound = loadSound()
+    winsound = loadSound('Assets/Win.mp3')
 }
 
 function setup(){

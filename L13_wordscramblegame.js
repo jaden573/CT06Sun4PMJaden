@@ -82,6 +82,6 @@ function checkAns(){
             maxStreak = streak
         }
         message = "correct"
-        
+        currentword
     }
 }

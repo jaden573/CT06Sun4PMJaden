@@ -83,6 +83,7 @@ function checkAns(){
         }
         message = "correct"
         currentword = random(word)
-        scrambleword
+        scrambleword = shuffleWord(currentword);
+        
     }
 }

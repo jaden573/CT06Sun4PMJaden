@@ -74,5 +74,8 @@ function rescrambleWord(){
 }
 
 function checkAns(){
-    let answer = input.value().trim().
+    let answer = input.value().trim().toUpperCase();
+    if(answer === currentWord){
+        score++
+    }
 }

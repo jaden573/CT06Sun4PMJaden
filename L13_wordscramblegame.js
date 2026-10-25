@@ -50,7 +50,7 @@ function draw(){
     text("Word scramble game", width/2, 100);
     text("random word: ", width/2, 200);
     text("Score: ", width/2, 225);
-    text("Streak: " + "(Max: )", width/2, 450);
+    text("Streak: " + "(Max: )", width/2, 250);
 }
 
 function displayText(){

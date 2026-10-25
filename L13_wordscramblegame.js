@@ -4,7 +4,7 @@ let displaytext = "Emter Text Here"
 
 function setup(){
     createCanvas(600,400)
-    putfield = createInput()
+    putfield = createInput("Enter text")
     putfield.position(300,150)
     putfield.size(200,40)
 

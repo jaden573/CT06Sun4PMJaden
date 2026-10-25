@@ -35,7 +35,7 @@ function setup(){
 
 
     buttom.mousePressed(displayText)
-    rescrambleButton.mousePressed()
+    rescrambleButton.mousePressed(resca)
     submitButton.mousePressed(checkAns)
 }
 

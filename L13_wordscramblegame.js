@@ -14,7 +14,7 @@ function setup(){
     buttom.size(100,30)
     putfield.style('font-size', "16px")
 
-    buttom.mousePressed(displaytext)
+    buttom.mousePressed(displayText)
 }
 
 
@@ -25,6 +25,6 @@ function draw(){
     text(displaytext,300,250)
 }
 
-function displaytext(){
+function displayText(){
     displaytext = putfield.value()
 }

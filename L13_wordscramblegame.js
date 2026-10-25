@@ -51,8 +51,8 @@ function draw(){
     text("Word scramble game", width/2, 100);
     text("random word: ", width/2, 240);
     text("Score: ", width/2, 265);
-    text("Streak: " + "(Max: )", width/2, 250);
-    text(message, width/2, 275)
+    text("Streak: " + "(Max: )", width/2, 285);
+    text(message, width/2, 310)
 }
 
 function shuffleWord(word){

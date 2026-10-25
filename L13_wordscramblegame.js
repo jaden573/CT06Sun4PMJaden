@@ -69,7 +69,7 @@ function displayText(){
 }
 
 function rescrambleWord(){
-    currentword 
+    
     scrambleWord = shuffleWord(currentword);
 }
 

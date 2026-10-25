@@ -2,5 +2,6 @@ let putfield
 let buttom
 
 function setup(){
-    createCanvas
+    createCanvas(600,400)
+    
 }

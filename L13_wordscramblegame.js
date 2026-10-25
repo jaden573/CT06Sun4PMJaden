@@ -1,10 +1,10 @@
-let putfield
-let buttom
-let displaytext
+let putfield;
+let buttom;
+let displaytext;
 let currentword, scrambleWord, input, rescrambleButton, submitButton;
-let score = 0
-let streak = 0
-let maxStreak = 0
+let score = 0;
+let streak = 0;
+let maxStreak = 0;
 let message = "";
 
 function setup(){

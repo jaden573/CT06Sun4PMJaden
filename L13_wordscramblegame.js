@@ -83,6 +83,7 @@ function rescrambleWord(){
 function checkAns(){
     let answer = input.value().trim().toUpperCase();
     if(answer === currentWord){
+        winsound.play();
         score++;
         streak++;
         if(streak > maxStreak){

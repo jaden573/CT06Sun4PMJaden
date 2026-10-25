@@ -61,4 +61,6 @@ function rescrambleWord(){
 
 }
 
-function 
+function checkAns(){
+    
+}

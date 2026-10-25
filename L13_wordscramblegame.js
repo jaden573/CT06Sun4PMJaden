@@ -51,7 +51,7 @@ function draw(){
     text("Word scramble game", width/2, 100);
     text("scrambled word: " + scrambleWord, width/2, 130);
     text("Score: " + score, width/2, 265);
-    text("Streak: " +  streak + "(Max: )", width/2, 285);
+    text("Streak: " +  streak + "(Max: )" +  maxStreak, width/2, 285);
     text(message, width/2, 310)
 }
 

@@ -30,7 +30,7 @@ function setup(){
     rescrambleButton.style('font-size', "16px")
 
     submitButton = createButton("Submit")
-    submitButton.position(400,200)
+    submitButton.position(400,175)
     submitButton.size(100,30)
     submitButton.style('font-size', "16px")
 

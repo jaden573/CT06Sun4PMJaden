@@ -27,7 +27,7 @@ function setup(){
     putfield.style('font-size', "16px")
 
     submitButton = createButton(Submit)
-    submitButton.position
+    submitButton.position(400,150)
 
 
     buttom.mousePressed(displayText)

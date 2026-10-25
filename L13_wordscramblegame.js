@@ -79,7 +79,7 @@ function checkAns(){
         score++;
         streak++;
         if(streak > maxStreak){
-            
+            maxStreak = streak
         }
     }
 }

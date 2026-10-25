@@ -54,6 +54,10 @@ function draw(){
     text(message, width/2, 275)
 }
 
+function shuffleWord(word){
+    
+}
+
 function displayText(){
     displaytext = putfield.value()
 }

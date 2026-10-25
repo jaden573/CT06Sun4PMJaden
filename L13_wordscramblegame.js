@@ -26,6 +26,7 @@ function setup(){
     rescrambleButton.size(100,30)
     putfield.style('font-size', "16px")
 
+    submitButton = createButton()
     
 
     buttom.mousePressed(displayText)

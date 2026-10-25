@@ -17,13 +17,14 @@ function setup(){
     button.mousePressed(displaytext)
 }
 
-function displaytext(){
-    displaytext = putfield.value()
-}
 
 function draw(){
     textSize(20)
     fill("BLACK")
     textAlign("CENTER")
     text(displaytext,300,250)
+}
+
+function displaytext(){
+    displaytext = putfield.value()
 }

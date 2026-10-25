@@ -1,6 +1,6 @@
 let putfield
 let buttom
-let displaytext = "Emter Text Here"
+let displaytext
 
 function setup(){
     createCanvas(600,400)

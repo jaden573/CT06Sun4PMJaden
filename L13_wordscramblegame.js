@@ -84,6 +84,8 @@ function checkAns(){
         message = "correct"
         currentword = random(word)
         scrambleword = shuffleWord(currentword);
-        
+
+    } else{
+        streak = 0
     }
 }

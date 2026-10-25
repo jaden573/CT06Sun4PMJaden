@@ -49,7 +49,7 @@ function draw(){
     textAlign("CENTER")
     text(displaytext,300,250);
     text("Word scramble game", width/2, 100);
-    text("scrambled word: ", + scrambleWord, width/2, 130);
+    text("scrambled word: " + scrambleWord, width/2, 130);
     text("Score: ", width/2, 265);
     text("Streak: " + "(Max: )", width/2, 285);
     text(message, width/2, 310)

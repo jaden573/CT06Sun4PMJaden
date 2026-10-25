@@ -94,6 +94,7 @@ function checkAns(){
         scrambleword = shuffleWord(currentword);
 
     } else{
+        losesound.play()
         streak = 0;
         message = "try again"
     

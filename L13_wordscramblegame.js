@@ -11,7 +11,7 @@ let words = ["hello", "butterfly", "keithisgay", "allahuakbar", "johnnysins"]
 
 function preload(){
     winsound = loadSound('Assets/Win.mp3')
-    losesound = loadSound('Assets/DunDunDunnn.mp3')
+    losesound = loadSound('Assets/Lose.mp3')
     rescramblesound = loadSound('Assets/DunDunDunnn.mp3')
 }
 

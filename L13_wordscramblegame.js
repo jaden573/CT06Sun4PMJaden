@@ -33,7 +33,8 @@ function setup(){
 
 
     buttom.mousePressed(displayText)
-    rescrambleButton
+    rescrambleButton.mousePressed()
+    
 }
 
 

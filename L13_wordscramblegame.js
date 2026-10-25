@@ -86,6 +86,8 @@ function checkAns(){
         scrambleword = shuffleWord(currentword);
 
     } else{
-        streak = 0
+        streak = 0;
+        message = "try again"
+    
     }
 }

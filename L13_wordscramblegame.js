@@ -90,5 +90,5 @@ function checkAns(){
         message = "try again"
     
     }
-    input.value
+    input.value("")
 }

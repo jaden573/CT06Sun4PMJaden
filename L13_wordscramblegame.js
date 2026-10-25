@@ -21,6 +21,8 @@ function setup(){
     buttom.size(100,30)
     putfield.style('font-size', "16px")
 
+    rescrambleButton
+
     buttom.mousePressed(displayText)
 }
 

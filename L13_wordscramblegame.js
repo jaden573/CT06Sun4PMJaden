@@ -24,10 +24,12 @@ function setup(){
     rescrambleButton = createButton("Rescramble")
     rescrambleButton.position(200,200)
     rescrambleButton.size(100,30)
-    putfield.style('font-size', "16px")
+    rescrambleButton.style('font-size', "16px")
 
     submitButton = createButton(Submit)
     submitButton.position(400,200)
+    submitButton.size(100,30)
+    putfield.style('font-size', "16px")
 
 
     buttom.mousePressed(displayText)

@@ -46,7 +46,7 @@ function draw(){
     background(220)
     textSize(20)
     fill("BLACK")
-    textAlign("CENTER")
+    textAlign(CENTER)
     text(displaytext,300,250);
     text("Word scramble game", width/2, 100);
     text("scrambled word: " + scrambleWord, width/2, 130);

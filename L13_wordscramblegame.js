@@ -2,7 +2,8 @@ let putfield
 let buttom
 let displaytext
 let currentword, scrambleWord, input, rescrambleButton, submitButton;
-
+let score = 0
+let 
 
 function setup(){
     createCanvas(600,400)

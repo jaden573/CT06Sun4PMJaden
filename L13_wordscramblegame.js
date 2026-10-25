@@ -58,5 +58,7 @@ function displayText(){
 }
 
 function rescrambleWord(){
-    
+
 }
+
+function 

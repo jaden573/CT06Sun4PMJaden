@@ -75,6 +75,8 @@ function draw(){
         for(let i = 0; i < numStars; i++){
             if(starY[i]>height - 40 && starX[i] - rectX >= 0 && starX[i] - playerX <= 40 ){GameOver=true};
         }
+    }else{
+        fill(255)
     }
 
 }

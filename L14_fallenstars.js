@@ -84,3 +84,9 @@ function draw() {
     text("Final Score: " + score, width / 2, height / 2 + 30);
   }
 }
+
+function mousePressed(){
+    if(!audioStarted){
+        
+    }
+}

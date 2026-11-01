@@ -65,7 +65,7 @@ function draw(){
     if(keyIsDown((LEFT_ARROW))){
         rectX -= 5
     }
-    if(key === 'd'){
+    if(keyIsDown(RIGHT_ARROW)){
         rectX += 5
     }
 }

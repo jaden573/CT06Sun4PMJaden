@@ -60,5 +60,5 @@ function draw(){
     }
     }
 
-    rectangle(40,40,20,20)
+    rect(40,40,20,20)
 }

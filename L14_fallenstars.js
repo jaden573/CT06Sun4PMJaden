@@ -73,7 +73,7 @@ function draw(){
     
     if(!GameOver){
         for(let i = 0; i < numStars; i++){
-            if(starY[i]>height - 40 && starX[i] - rectX >= 0 && starX[i] - playerX <= 40 ){GameOver=true}
+            if(starY[i]>height - 40 && starX[i] - rectX >= 0 && starX[i] - playerX <= 40 ){GameOver=true};
         }
     }
 

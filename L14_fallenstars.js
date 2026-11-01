@@ -7,5 +7,7 @@ function setup(){
     bakcground(220)
     field = createInput()
     field.position(300,200)
-    field.size()
+    field.size(100,40)
+
+    
 }

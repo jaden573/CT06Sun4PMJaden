@@ -69,5 +69,5 @@ function draw(){
         rectX += 5
     }
     rectX = constrain(x,0,width)
-
+    rectY = constrain(y)
 }

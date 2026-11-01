@@ -52,7 +52,7 @@ function draw(){
     
     
     if(starX[i] > height){
-        
+        starY[i]
     }
     }
 }

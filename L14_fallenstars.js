@@ -35,6 +35,7 @@ function setup(){
 
 
     for(let i = 0; i < numStars; i++){
-        starX.push
+        starX.push(random(width))
+        starY.push()
     }
 }

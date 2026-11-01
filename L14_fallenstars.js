@@ -46,12 +46,7 @@ function setup(){
 function draw(){
     background(0)
 
-    if(!GameOver){
-        for(let i = 0; i < numStars; i++){
-            if(starY[i]>height)
-        }
-    }
-
+    
 
     for(let i = 0; i<numStars; i++){
         fill(255,255,0)
@@ -75,4 +70,11 @@ function draw(){
     }
     rectX = constrain(rectX,0,width-40)
     rectY = constrain(rectY,0,height)
+    
+    if(!GameOver){
+        for(let i = 0; i < numStars; i++){
+            if(starY[i]>height - 40 && starX[i] - rectX >= 0 && starX[i] - playerX <= 40 ){GameOver=true}
+        }
+    }
+
 }

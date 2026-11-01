@@ -15,3 +15,6 @@ function setup(){
     submit.mousePressed(Rescramble)
 }
 
+function Rescramble(){
+    
+}

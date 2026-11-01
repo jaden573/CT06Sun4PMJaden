@@ -49,5 +49,10 @@ function draw(){
         fill(255,255,0)
         ellipse(starX[i], starY[i], starSize[i])
         starY[i] += starSpeed[i]
+    
+    
+    if(starX[i] > height){
+        
+    }
     }
 }

@@ -3,5 +3,6 @@ let submit
 let fruits
 
 function setup(){
-    
+    createCanvas(600,400)
+    bakcground(220)
 }

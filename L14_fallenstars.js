@@ -10,5 +10,5 @@ function setup(){
     field.size(100,40)
 
     submit = createButton("Submit")
-    
+    submit.position(3)
 }

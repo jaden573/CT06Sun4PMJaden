@@ -63,6 +63,6 @@ function draw(){
 
     rect(rectX,rectY,40,40)
     if(key === 'a'){
-        
+        rectX -= 
     }
 }

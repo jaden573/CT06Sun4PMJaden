@@ -22,7 +22,7 @@
 // function Rescramble(){
 
 // }
-let GameOver
+let GameOver = false
 let rectX = 300
 let rectY = 360
 let starX = []
@@ -46,7 +46,11 @@ function setup(){
 function draw(){
     background(0)
 
-    if(!GameOver)
+    if(!GameOver){
+        for(let i = 0; i < numStars; i++){
+            
+        }
+    }
 
 
     for(let i = 0; i<numStars; i++){

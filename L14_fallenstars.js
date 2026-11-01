@@ -41,3 +41,7 @@ function setup(){
         starSpeed.push(random(1,3))
     }
 }
+
+function draw(){
+    
+}

@@ -23,7 +23,8 @@
 
 // }
 
-let rectX = 
+let rectX = 300
+let rectY = 360
 let starX = []
 let starY = []
 let starSize = []
@@ -60,5 +61,5 @@ function draw(){
     }
     }
 
-    rect(300,360,40,40)
+    rect(rectX,360,40,40)
 }

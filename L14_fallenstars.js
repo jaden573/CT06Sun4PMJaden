@@ -66,6 +66,6 @@ function draw(){
         rectX -= 5
     }
     if(key === 'd'){
-        r
+        rectX += 5
     }
 }

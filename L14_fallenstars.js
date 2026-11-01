@@ -58,6 +58,7 @@ function draw(){
         starY[i] =  random(-200, -50)
         starX[i] = random(width)
         starSpeed[i] = random(2,5);
+        score++;
     }
     }
 

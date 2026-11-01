@@ -22,7 +22,7 @@
 // function Rescramble(){
 
 // }
-
+let GameOver
 let rectX = 300
 let rectY = 360
 let starX = []

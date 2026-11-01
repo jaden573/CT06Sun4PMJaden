@@ -7,7 +7,7 @@ function setup(){
     bakcground(220)
 
     currentword = random(fruits)
-    
+
 
     field = createInput()
     field.position(300,200)
@@ -22,3 +22,5 @@ function setup(){
 function Rescramble(){
 
 }
+
+

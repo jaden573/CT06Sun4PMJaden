@@ -1,7 +1,7 @@
 let field
 let submit
 let fruits
-
+let currentword
 function setup(){
     createCanvas(600,400)
     bakcground(220)
@@ -16,5 +16,5 @@ function setup(){
 }
 
 function Rescramble(){
-    
+
 }

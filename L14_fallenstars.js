@@ -62,7 +62,7 @@ function draw(){
     }
 
     rect(rectX,rectY,40,40)
-    if(key === 'a'){
+    if(keyIsDown((LEFT_ARROW))){
         rectX -= 5
     }
     if(key === 'd'){

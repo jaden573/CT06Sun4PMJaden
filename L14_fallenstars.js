@@ -92,4 +92,8 @@ function mousePressed(){
     }
 }
 
-function playRandom
+function playRandomTone(){
+    if(audioStarted){
+        
+    }
+}

@@ -26,4 +26,6 @@
 
 let starX = []
 let starY = []
-let 
+let starSize = []
+let starSpeed = []
+let numStars = []

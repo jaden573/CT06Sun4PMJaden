@@ -54,6 +54,7 @@ function draw(){
     if(starX[i] > height){
         starY[i] =  random(-200, -50)
         starX[i] = random(width)
+        starSpeed[i] = random(2,5)
     }
     }
 }

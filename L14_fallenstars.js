@@ -78,7 +78,7 @@ function draw(){
     }else{
         fill(255,0,0)
         textSize(320);
-        text("GAME")
+        text("GAME OVERRRRRR", width/2, height/2)
     }
 
 }

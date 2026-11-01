@@ -76,7 +76,8 @@ function draw(){
             if(starY[i]>height - 40 && starX[i] - rectX >= 0 && starX[i] - playerX <= 40 ){GameOver=true};
         }
     }else{
-        fill(255)
+        fill(255,0,0)
+        textSize(320)
     }
 
 }

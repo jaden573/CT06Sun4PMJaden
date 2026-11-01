@@ -1,86 +1,81 @@
-// let field
-// let submit
-// let fruits
-// let currentword
-// function setup(){
-//     createCanvas(600,400)
-//     bakcground(220)
+let GameOver = false;
+let rectX = 300;
+let rectY = 360;
+const rectSize = 40;
 
-//     currentword = random(fruits)
+let starX = [];
+let starY = [];
+let starSize = [];
+let starSpeed = [];
+let numStars = 10;
+let score = 0;
 
-
-//     field = createInput()
-//     field.position(300,200)
-//     field.size(100,40)
-
-//     submit = createButton("Submit")
-//     submit.position(300,225)
-//     submit.size(50,20)
-//     submit.mousePressed(Rescramble)
-// }
-
-// function Rescramble(){
-
-// }
-let GameOver = false
-let rectX = 300
-let rectY = 360
-let starX = []
-let starY = []
-let starSize = []
-let starSpeed = []
-let numStars = 10
-let score=0
-function setup(){
-    createCanvas(600,400)
-
-
-    for(let i = 0; i < numStars; i++){
-        starX.push(random(width))
-        starY.push(random(-300,-50))
-        starSize.push(random(10,20))
-        starSpeed.push(random(1,3))
-    }
+function setup() {
+  createCanvas(600, 400);
+  
+  // Initialize star properties
+  for (let i = 0; i < numStars; i++) {
+    starX.push(random(width));
+    starY.push(random(-300, -50));
+    starSize.push(random(10, 20));
+    starSpeed.push(random(1, 3));
+  }
 }
 
-function draw(){
-    background(0)
+function draw() {
+  background(0);
 
-    
-
-    for(let i = 0; i<numStars; i++){
-        fill(255,255,0)
-        ellipse(starX[i], starY[i], starSize[i])
-        starY[i] += starSpeed[i]
-    
-    
-    if(starX[i] > height){
-        starY[i] =  random(-200, -50)
-        starX[i] = random(width)
-        starSpeed[i] = random(2,5);
+  if (!GameOver) {
+    // 1. Move and Draw Stars
+    for (let i = 0; i < numStars; i++) {
+      fill(255, 255, 0);
+      noStroke();
+      ellipse(starX[i], starY[i], starSize[i]);
+      
+      // Move star down
+      starY[i] += starSpeed[i];
+      
+      // Reset star when it falls past the canvas bottom height
+      if (starY[i] > height) { 
+        starY[i] = random(-200, -50);
+        starX[i] = random(width);
+        starSpeed[i] = random(2, 5);
         score++;
-    }
+      }
+      
+      // 2. Collision Detection (Accurate bounding box overlap)
+      let starRadius = starSize[i] / 2;
+      if (starY[i] + starRadius >= rectY && 
+          starX[i] + starRadius >= rectX && 
+          starX[i] - starRadius <= rectX + rectSize) {
+        GameOver = true;
+      }
     }
 
-    rect(rectX,rectY,40,40)
-    if(keyIsDown((LEFT_ARROW))){
-        rectX -= 5
+    // 3. Player Movement & Constraints
+    if (keyIsDown(LEFT_ARROW)) {
+      rectX -= 5;
     }
-    if(keyIsDown(RIGHT_ARROW)){
-        rectX += 5
+    if (keyIsDown(RIGHT_ARROW)) {
+      rectX += 5;
     }
-    rectX = constrain(rectX,0,width-40)
-    rectY = constrain(rectY,0,height)
+    rectX = constrain(rectX, 0, width - rectSize);
+  }
+
+  // 4. Draw Player Square
+  fill(255);
+  rect(rectX, rectY, rectSize, rectSize);
+
+  // 5. Game Over Overlay UI
+  if (GameOver) {
+    fill(255, 0, 0);
+    textAlign(CENTER, CENTER);
     
-    if(!GameOver){
-        for(let i = 0; i < numStars; i++){
-            if(starY[i]>height - 40 && starX[i] - rectX >= 0 && starX[i] - rectX <= 40 ){GameOver=true};
-        }
-    }else{
-        fill(255,0,0)
-        textSize(320);
-        text("GAME OVERRRRRR", width/2, height/2)
-        text("Final score: " + score, width/2, height/2 + 40)
-    }
-
+    textSize(42);
+    text("GAME OVER", width / 2, height / 2 - 20);
+    
+    fill(255);
+    textSize(20);
+    text("Final Score: " + score, width / 2, height / 2 + 30);
+  }
 }

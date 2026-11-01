@@ -48,7 +48,7 @@ function draw(){
 
     if(!GameOver){
         for(let i = 0; i < numStars; i++){
-            
+            if(starY[i]>height)
         }
     }
 

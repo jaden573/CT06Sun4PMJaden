@@ -22,7 +22,7 @@ function setup() {
     starSize.push(random(10, 20));
     starSpeed.push(random(1, 3));
   }
-  osc = new p5.oscillater
+  osc = new p5.Oscillator()
 }
 
 function draw() {

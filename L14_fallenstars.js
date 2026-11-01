@@ -80,7 +80,7 @@ function draw(){
         fill(255,0,0)
         textSize(320);
         text("GAME OVERRRRRR", width/2, height/2)
-        text("Final score: " + score, width/2)
+        text("Final score: " + score, width/2, height/2 + 40)
     }
 
 }

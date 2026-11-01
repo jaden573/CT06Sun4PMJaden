@@ -12,4 +12,5 @@ function setup(){
     submit = createButton("Submit")
     submit.position(300,225)
     submit.size(50,20)
+    submit.mousePressed()
 }

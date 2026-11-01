@@ -23,7 +23,7 @@
 
 // }
 
-
+let rectX = 
 let starX = []
 let starY = []
 let starSize = []

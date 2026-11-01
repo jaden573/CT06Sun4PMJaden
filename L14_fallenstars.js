@@ -6,5 +6,6 @@ function setup(){
     createCanvas(600,400)
     bakcground(220)
     field = createInput()
-    field.position()
+    field.position(300,200)
+    field.size()
 }

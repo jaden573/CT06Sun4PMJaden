@@ -91,3 +91,5 @@ function mousePressed(){
         audioStarted = true
     }
 }
+
+function playRandom

@@ -62,4 +62,5 @@ function draw(){
     }
 
     rect(rectX,rectY,40,40)
+    
 }

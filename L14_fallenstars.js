@@ -10,7 +10,7 @@ let starSpeed = [];
 let numStars = 10;
 let score = 0;
 let osc
-
+let audioStarted = false
 
 function setup() {
   createCanvas(600, 400);

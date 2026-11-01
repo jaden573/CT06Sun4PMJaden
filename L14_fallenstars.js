@@ -61,5 +61,5 @@ function draw(){
     }
     }
 
-    rect(rectX,360,40,40)
+    rect(rectX,rectY,40,40)
 }

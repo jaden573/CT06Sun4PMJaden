@@ -68,5 +68,5 @@ function draw(){
     if(keyIsDown(RIGHT_ARROW)){
         rectX += 5
     }
-    
+    rectX = constrain()
 }

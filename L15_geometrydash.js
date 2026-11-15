@@ -1,5 +1,5 @@
-let playerX = 100
-let playerY = [50,100,150]
+let playerX = 100;
+let playerY;
 let playerSize = []
 let velocity = 3
 let circleSize = 50

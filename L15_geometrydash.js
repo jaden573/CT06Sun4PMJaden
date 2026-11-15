@@ -63,6 +63,7 @@ function draw(){
     
 
     text("Score: " + score/20, width/2, 60)}
+    else{}
 }
 
 function keyPressed(){

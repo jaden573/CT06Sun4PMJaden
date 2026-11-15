@@ -31,3 +31,7 @@ function draw(){
     textSize(20)
     text("Press space to jump", width/2, 30)
 }
+
+function keyPressed(){
+    
+}

@@ -51,6 +51,8 @@ function draw(){
     if(spikeX[i] + spikeWidth<playerX){
         score += 1
     }
+
+    text("Score")
 }
 
 function keyPressed(){

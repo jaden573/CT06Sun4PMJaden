@@ -6,5 +6,6 @@ let numCircle = 3
 let circleSize = 50
 
 function setup(){
+    createCanvas(600,300)
     
 }

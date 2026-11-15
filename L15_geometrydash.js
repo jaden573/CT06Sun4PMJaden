@@ -28,5 +28,5 @@ function draw(){
     rect(playerX, playerY, playerSize, playerSize)
 
     fill(255)
-    
+    textSize
 }

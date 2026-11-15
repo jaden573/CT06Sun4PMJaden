@@ -24,5 +24,6 @@ function draw(){
         isGrounded = false
     }
     
-    fill()
+    fill(0,255,0)
+    rect
 }

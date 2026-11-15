@@ -1,8 +1,7 @@
 let playerX = 100
 let playerY = [50,100,150]
 let playerSize = []
-let circlecolour = []
-let numCircle = 3
+let velocity = 3
 let circleSize = 50
 
 function setup(){

@@ -62,7 +62,7 @@ function draw(){
     }
     
 
-    text("Score: " + score/20, width/2, 60)}
+    text("Score: " + score, width/2, 60)}
     else{
         fill(255,0,0);
         textSize(32);

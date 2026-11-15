@@ -24,8 +24,8 @@ function draw(){
     background(0)
 
     if(!gameOver){
-        
-    }
+
+    
     velocity += 0.8
     playerY += velocity
 
@@ -54,7 +54,7 @@ function draw(){
         triangle(spikeX[i], height, spikeX[i] + spikeWidth/2, height - spikeHeight, spikeX[i] + spikeWidth, height);
         if(spikeX[i] + spikeWidth<playerX){
         score += 1
-    }
+    }}
     }
     
 

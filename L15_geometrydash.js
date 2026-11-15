@@ -1,5 +1,5 @@
-let circleX = 100
-let circleY = [50,100,150]
+let playerX = 100
+let playerY = [50,100,150]
 let circlespeed = []
 let circlecolour = []
 let numCircle = 3

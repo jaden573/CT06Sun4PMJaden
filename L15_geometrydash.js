@@ -15,5 +15,5 @@ function setup(){
 }
 
 function draw(){
-    ellipse()
+    ellipse(circleX, circleY, )
 }

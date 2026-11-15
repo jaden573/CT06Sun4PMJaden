@@ -54,11 +54,11 @@ function draw(){
         triangle(spikeX[i], height, spikeX[i] + spikeWidth/2, height - spikeHeight, spikeX[i] + spikeWidth, height);
         if(spikeX[i] + spikeWidth<playerX){
         score += 1
-    }}
+    }
     }
     
 
-    text("Score: " + score/20, width/2, 60)
+    text("Score: " + score/20, width/2, 60)}
 }
 
 function keyPressed(){

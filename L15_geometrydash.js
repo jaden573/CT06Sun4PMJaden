@@ -12,7 +12,5 @@ function setup(){
 
 
 function draw(){
-    for(let i = 0; i<numCircle; i++){
-        ellipse(circleX,circleY)
-    }
+    
 }

@@ -13,3 +13,7 @@ function setup(){
     
     }
 }
+
+function draw(){
+    
+}

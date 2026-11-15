@@ -38,7 +38,10 @@ function draw(){
     textSize(20)
     text("Press space to jump", width/2, 30)
 
-    
+    fill(255,0,0)
+    for(let i = 0; i < spikeX.length; i++){
+        
+    }
 }
 
 function keyPressed(){

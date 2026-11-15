@@ -53,7 +53,7 @@ function draw(){
     }
     
 
-    text("Score: " + score, width/2, 30)
+    text("Score: " + score, width/2, 60)
 }
 
 function keyPressed(){

@@ -58,7 +58,7 @@ function draw(){
     if(playerX + playerSize >spikeX[i] &&
         playerX < spikeX[i] + spikeWidth&&
         playerY + playerSize > height - spikeHeight
-    ){}
+    ){gameOver=true}
     }
     
 

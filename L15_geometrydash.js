@@ -48,9 +48,7 @@ function draw(){
         }
         triangle(spikeX[i], height, spikeX[i] + spikeWidth/2, height - spikeHeight, spikeX[i] + spikeWidth, height);
     }
-    if(spikeX[i] + spikeWidth<playerX){
-        score += 1
-    }
+    
 
     text("Score: " + score, width/2, 30)
 }

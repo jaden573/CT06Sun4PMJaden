@@ -52,7 +52,7 @@ function draw(){
         score += 1
     }
 
-    text("Score: " + score, )
+    text("Score: " + score, width/2, 30)
 }
 
 function keyPressed(){

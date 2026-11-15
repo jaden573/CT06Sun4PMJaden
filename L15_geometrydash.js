@@ -48,6 +48,9 @@ function draw(){
         }
         triangle(spikeX[i], height, spikeX[i] + spikeWidth/2, height - spikeHeight, spikeX[i] + spikeWidth, height);
     }
+    if(spikeX[i]<playerX){
+        
+    }
 }
 
 function keyPressed(){

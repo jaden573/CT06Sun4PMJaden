@@ -24,5 +24,5 @@ function draw(){
         isGrounded = false
     }
     
-    FileList(255)
+    fill()
 }

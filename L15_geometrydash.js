@@ -7,5 +7,5 @@ let circleSize = 50
 
 function setup(){
     createCanvas(600,300)
-    circlecolour = [colour(255,0,0)]
+    circlecolour = [colour(255,0,0), color()]
 }

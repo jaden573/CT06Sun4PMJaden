@@ -25,5 +25,5 @@ function draw(){
     }
     
     fill(0,255,0)
-    rect
+    rect(playerX, playerY)
 }

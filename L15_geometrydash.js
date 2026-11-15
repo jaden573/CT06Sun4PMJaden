@@ -1,6 +1,6 @@
 let playerX = 100
 let playerY = [50,100,150]
-let circlespeed = []
+let playerSize = []
 let circlecolour = []
 let numCircle = 3
 let circleSize = 50

@@ -55,6 +55,10 @@ function draw(){
         if(spikeX[i] + spikeWidth<playerX){
         score += 1
     }
+    if(playerX + playerSize >spikeX[i] &&
+        playerX < spikeX[i] + spikeWidth&&
+        playerY + playerSize > height - spikeHeight
+    ){}
     }
     
 

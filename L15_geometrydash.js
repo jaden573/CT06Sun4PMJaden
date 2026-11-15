@@ -43,7 +43,7 @@ function draw(){
         spikeX[i] -= spikeSpeed;
 
         if (spikeX[i] < -spikeWidth){
-            spiekX[i] = wodth + random()
+            spiekX[i] = wodth + random(100,300)
         }
     }
 }

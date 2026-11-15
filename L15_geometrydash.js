@@ -1,7 +1,7 @@
 let playerX = 100;
 let playerY;
-let playerSize = []
-let velocity = 3
+let playerSize = 30;
+let velocity = 0;
 let circleSize = 50
 
 function setup(){

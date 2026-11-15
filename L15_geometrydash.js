@@ -3,3 +3,4 @@ let circleY = [50,100,150]
 let circlespeed = []
 let circlecolour = []
 let numCircle = 3
+let circleSize = 50

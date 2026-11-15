@@ -25,5 +25,8 @@ function draw(){
     }
     
     fill(0,255,0)
-    rect(playerX, playerY)
+    rect(playerX, playerY, playerSize, playerSize)
+
+    fill(255)
+    
 }

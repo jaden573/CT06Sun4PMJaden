@@ -1,2 +1,2 @@
 let circleX = [100,200,300]
-let circleY = []
+let circleY = [50,100,150]
